@@ -13,6 +13,7 @@ module.exports=[
       "text": "笔记",
       "icon": "reco-message",
       "items": [
+        // 前端
         {
           "text": "前端",
           "icon": "reco-message",
@@ -26,22 +27,23 @@ module.exports=[
               "link":"/blogs/frontend/js/" 
             }
           ]
-          // "link": "/blogs/frontend/"
         },
-        // {
-        //   "text": "后端",
-        //   items:[
-        //     {
-        //       "text":"java",
-        //       "link":"/blogs/category2/2016/"
-        //     },
-        //     {
-        //       "text":"spring",
-        //       "link":"/blogs/category2/2017/"
-        //     }
-        //   ]
-        //   // "link": "/blogs/category2/" 
-        // }
+        // 后端
+        {
+          "text": "后端",
+          "icon": "reco-message",
+          items:[
+            {
+              "text":"java",
+              "link":"/blogs/backend/java/"
+            },
+            {
+              "text":"sql",
+              "link":"/blogs/backend/sql/" 
+            }
+          ]
+        },
+        // 其他
       ]
     },
     {

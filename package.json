@@ -10,5 +10,9 @@
     "vuepress": "1.8.2",
     "vuepress-theme-reco": "1.6.6"
   },
-  "description": "陆盛涛的个人空间"
+  "description": "陆盛涛的个人空间",
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.4",
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5"
+  }
 }

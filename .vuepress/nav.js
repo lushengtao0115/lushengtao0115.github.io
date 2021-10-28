@@ -79,6 +79,11 @@ module.exports=[
         ]
     },
     {
+      text: "留言板",
+      icon: "reco-suggestion",
+      link: "/messageBoard", // messageBoard 只是自行新建的文件名，可自行命名
+    },
+    {
       "text": "链接",
       "icon": "reco-message",
       "items": [

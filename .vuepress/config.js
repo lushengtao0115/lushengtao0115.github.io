@@ -110,32 +110,60 @@ module.exports = {
         height: 320
       }
     ],
-    // 音乐插件
-    [
-      "@vuepress-reco/vuepress-plugin-bgm-player",{
-        audios: [
-          // 本地文件示例
-          // {
-          //   name: '장가갈 수 있을까',
-          //   artist: '咖啡少年',
-          //   url: '/bgm/1.mp3',
-          //   cover: '/bgm/1.jpg'
-          // },
-          // 网络文件示例
-          {
-            name: '강남역 4번 출구',
-            artist: 'Plastic / Fallin` Dild',
-            url: 'https://assets.smallsunnyfox.com/music/2.mp3',
-            cover: 'https://assets.smallsunnyfox.com/music/2.jpg'
-          },
-          {
-            name: '用胳膊当枕头',
-            artist: '최낙타',
-            url: 'https://assets.smallsunnyfox.com/music/3.mp3',
-            cover: 'https://assets.smallsunnyfox.com/music/3.jpg'
-          }
-        ]  
-      }
-    ]
+ //    // 音乐插件
+	// // 插件一
+ //    [
+ //      "@vuepress-reco/vuepress-plugin-bgm-player",{
+ //        audios: [
+ //          // 本地文件示例
+ //          // {
+ //          //   name: '장가갈 수 있을까',
+ //          //   artist: '咖啡少年',
+ //          //   url: '/bgm/1.mp3',
+ //          //   cover: '/bgm/1.jpg'
+ //          // },
+ //          // 网络文件示例
+ //          {
+ //            name: '강남역 4번 출구',
+ //            artist: 'Plastic / Fallin` Dild',
+ //            url: 'https://assets.smallsunnyfox.com/music/2.mp3',
+ //            cover: 'https://assets.smallsunnyfox.com/music/2.jpg'
+ //          }
+ //        ]  
+ //      }
+ //    ]
+	// 插件二
+	['meting', {
+	      // metingApi: "https://meting.sigure.xyz/api/music",
+	      meting: {
+	        // 网易
+	        server: "tencent",
+	        // 读取歌单
+	        type: "playlist",
+	        mid: "8134579426",
+	      },          
+	      // 不配置该项的话不会出现全局播放器
+	      aplayer: {
+	        // 吸底模式
+	        fixed: true,
+	        mini: true,
+	        // 自动播放
+	        autoplay: true,
+	        // 歌曲栏折叠
+	        listFolded:true,
+	        // 颜色
+	        theme: '#f9bcdd',
+	        // 播放顺序为随机
+	        order: 'random',
+	        // 初始音量
+	        volume: 0.1,
+	        // 关闭歌词显示
+	        lrcType: 0
+	      },
+	      mobile :{
+	        // 手机端去掉cover图
+	        cover: false,
+	      }
+	    }]
   ]
 }

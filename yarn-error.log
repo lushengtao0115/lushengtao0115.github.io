@@ -1,0 +1,43 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add vuepress-plugin-meting
+
+PATH: 
+  D:\anaconda\condabin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\nodejs\;C:\Program Files\dotnet\;D:\MYSQL\mysql-8.0.26-winx64\bin;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;D:\anaconda;D:\anaconda\Scripts;D:\anaconda\Library\bin;D:\anaconda\Library\mingw-w64\bin;D:\Git\bin;D:\Git\cmd;C:\Users\hp\AppData\Roaming\npm;C:\Users\hp\.dotnet\tools;C:\Windows\System32;D:\Git\usr\bin;D:\Microsoft VS Code\bin;D:\MYSQL\mysql-8.0.26-winx64\bin;
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\hp\AppData\Local\Yarn\Cache\v6\npm-ms-2.1.2-d09d1f357b443f493382a8eb3ccd183872ae6009-integrity\node_modules\ms\license.md' -> 'F:\陆盛涛\my_blog\node_modules\@babel\core\node_modules\ms\license.md'
+
+npm manifest: 
+  {
+    "name": "my_blog",
+    "version": "1.0.0",
+    "author": "reco_luan",
+    "scripts": {
+      "dev": "vuepress dev . --open --host \"localhost\"",
+      "build": "vuepress build ."
+    },
+    "devDependencies": {
+      "vuepress": "1.8.2",
+      "vuepress-theme-reco": "1.6.6"
+    },
+    "description": "陆盛涛的个人空间",
+    "dependencies": {
+      "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.4",
+      "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

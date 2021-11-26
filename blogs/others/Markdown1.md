@@ -2,7 +2,7 @@
 title: Markdown语法
 date: 2021-10-29
 categories:
-  - 其他
+  - 工具
 tags:
   - Markdown  
 ---

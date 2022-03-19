@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Markdown语法 | lushengtao</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/favicon.ico">
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?ed408e57f8fef03022d7a497af6f4db3";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+      </script>
+    <meta name="description" content="陆盛涛的个人空间">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/assets/css/0.styles.f1e93b00.css" as="style"><link rel="preload" href="/assets/js/app.dc55515c.js" as="script"><link rel="preload" href="/assets/js/4.729c08cb.js" as="script"><link rel="preload" href="/assets/js/1.5e2c7173.js" as="script"><link rel="preload" href="/assets/js/148.edfbe037.js" as="script"><link rel="prefetch" href="/assets/js/10.42eaf00d.js"><link rel="prefetch" href="/assets/js/100.fa30cbec.js"><link rel="prefetch" href="/assets/js/101.e65682f2.js"><link rel="prefetch" href="/assets/js/102.e72e0341.js"><link rel="prefetch" href="/assets/js/103.17fb0df4.js"><link rel="prefetch" href="/assets/js/104.0ed7db7c.js"><link rel="prefetch" href="/assets/js/105.3b75fe73.js"><link rel="prefetch" href="/assets/js/106.2dc4e405.js"><link rel="prefetch" href="/assets/js/107.850bf0db.js"><link rel="prefetch" href="/assets/js/108.2aaf45fc.js"><link rel="prefetch" href="/assets/js/109.0561c0a4.js"><link rel="prefetch" href="/assets/js/11.9ca98047.js"><link rel="prefetch" href="/assets/js/110.9ea4f28f.js"><link rel="prefetch" href="/assets/js/111.080b4d19.js"><link rel="prefetch" href="/assets/js/112.b3f65d65.js"><link rel="prefetch" href="/assets/js/113.ec8ba683.js"><link rel="prefetch" href="/assets/js/114.24e6b5a5.js"><link rel="prefetch" href="/assets/js/115.9d13d3f6.js"><link rel="prefetch" href="/assets/js/116.0e429396.js"><link rel="prefetch" href="/assets/js/117.bb94f835.js"><link rel="prefetch" href="/assets/js/118.72f18fd7.js"><link rel="prefetch" href="/assets/js/119.65f87c71.js"><link rel="prefetch" href="/assets/js/12.35157320.js"><link rel="prefetch" href="/assets/js/120.2f33df4b.js"><link rel="prefetch" href="/assets/js/121.a8fff795.js"><link rel="prefetch" href="/assets/js/122.3b78dbe3.js"><link rel="prefetch" href="/assets/js/123.c4f2c011.js"><link rel="prefetch" href="/assets/js/124.349299c9.js"><link rel="prefetch" href="/assets/js/125.5d45ffeb.js"><link rel="prefetch" href="/assets/js/126.b47268cd.js"><link rel="prefetch" href="/assets/js/127.03c3a900.js"><link rel="prefetch" href="/assets/js/128.1d0e178a.js"><link rel="prefetch" href="/assets/js/129.bcf01d36.js"><link rel="prefetch" href="/assets/js/13.c2c9eeec.js"><link rel="prefetch" href="/assets/js/130.20a4ac3c.js"><link rel="prefetch" href="/assets/js/131.cdd30bb3.js"><link rel="prefetch" href="/assets/js/132.58b2f643.js"><link rel="prefetch" href="/assets/js/133.7921d960.js"><link rel="prefetch" href="/assets/js/134.8ff8d2d5.js"><link rel="prefetch" href="/assets/js/135.d6e7d8fb.js"><link rel="prefetch" href="/assets/js/136.cd08b37b.js"><link rel="prefetch" href="/assets/js/137.4bf6db81.js"><link rel="prefetch" href="/assets/js/138.3b3892a1.js"><link rel="prefetch" href="/assets/js/139.8674340a.js"><link rel="prefetch" href="/assets/js/14.2b18c814.js"><link rel="prefetch" href="/assets/js/140.08d9d25f.js"><link rel="prefetch" href="/assets/js/141.891c3179.js"><link rel="prefetch" href="/assets/js/142.50576149.js"><link rel="prefetch" href="/assets/js/143.d555ef74.js"><link rel="prefetch" href="/assets/js/144.131b6f4c.js"><link rel="prefetch" href="/assets/js/145.a5536adf.js"><link rel="prefetch" href="/assets/js/146.400808c6.js"><link rel="prefetch" href="/assets/js/147.16bbf9a3.js"><link rel="prefetch" href="/assets/js/149.edd32cee.js"><link rel="prefetch" href="/assets/js/15.643cf9aa.js"><link rel="prefetch" href="/assets/js/150.a76a8ef7.js"><link rel="prefetch" href="/assets/js/151.0cf5173e.js"><link rel="prefetch" href="/assets/js/152.f747a615.js"><link rel="prefetch" href="/assets/js/153.19126610.js"><link rel="prefetch" href="/assets/js/154.928aae9a.js"><link rel="prefetch" href="/assets/js/155.6299b62b.js"><link rel="prefetch" href="/assets/js/156.e9d55dba.js"><link rel="prefetch" href="/assets/js/157.5652c0c6.js"><link rel="prefetch" href="/assets/js/158.39fd36e4.js"><link rel="prefetch" href="/assets/js/159.b12fded9.js"><link rel="prefetch" href="/assets/js/16.b1262f01.js"><link rel="prefetch" href="/assets/js/160.8d7491af.js"><link rel="prefetch" href="/assets/js/161.d1763267.js"><link rel="prefetch" href="/assets/js/162.cd44623a.js"><link rel="prefetch" href="/assets/js/163.c8fd1070.js"><link rel="prefetch" href="/assets/js/164.be05726d.js"><link rel="prefetch" href="/assets/js/165.12577b20.js"><link rel="prefetch" href="/assets/js/166.482523c7.js"><link rel="prefetch" href="/assets/js/167.3eb75274.js"><link rel="prefetch" href="/assets/js/168.5d563696.js"><link rel="prefetch" href="/assets/js/169.fc01bad6.js"><link rel="prefetch" href="/assets/js/17.fbf4e6a8.js"><link rel="prefetch" href="/assets/js/170.7d881501.js"><link rel="prefetch" href="/assets/js/171.a716b1c9.js"><link rel="prefetch" href="/assets/js/172.8116bd99.js"><link rel="prefetch" href="/assets/js/173.f77ebb92.js"><link rel="prefetch" href="/assets/js/174.489a816a.js"><link rel="prefetch" href="/assets/js/175.ab795b1b.js"><link rel="prefetch" href="/assets/js/176.308daa82.js"><link rel="prefetch" href="/assets/js/177.d16b5cd8.js"><link rel="prefetch" href="/assets/js/178.4ff50632.js"><link rel="prefetch" href="/assets/js/179.2688c654.js"><link rel="prefetch" href="/assets/js/18.c83c09b6.js"><link rel="prefetch" href="/assets/js/180.c2a8307e.js"><link rel="prefetch" href="/assets/js/181.b07f6199.js"><link rel="prefetch" href="/assets/js/182.7418b85d.js"><link rel="prefetch" href="/assets/js/183.de936341.js"><link rel="prefetch" href="/assets/js/184.f9055235.js"><link rel="prefetch" href="/assets/js/185.a6ae9eb7.js"><link rel="prefetch" href="/assets/js/186.ab0111d5.js"><link rel="prefetch" href="/assets/js/187.de8e9e8c.js"><link rel="prefetch" href="/assets/js/188.bf2f6f75.js"><link rel="prefetch" href="/assets/js/189.361ea870.js"><link rel="prefetch" href="/assets/js/19.94d0293a.js"><link rel="prefetch" href="/assets/js/190.b4ba0794.js"><link rel="prefetch" href="/assets/js/191.fd415193.js"><link rel="prefetch" href="/assets/js/192.196bcfe9.js"><link rel="prefetch" href="/assets/js/193.c22180e2.js"><link rel="prefetch" href="/assets/js/2.dbb458f5.js"><link rel="prefetch" href="/assets/js/20.b20a312a.js"><link rel="prefetch" href="/assets/js/21.b8b880bf.js"><link rel="prefetch" href="/assets/js/22.39a68dc4.js"><link rel="prefetch" href="/assets/js/23.3ede09b3.js"><link rel="prefetch" href="/assets/js/24.50e2d796.js"><link rel="prefetch" href="/assets/js/25.6488ae12.js"><link rel="prefetch" href="/assets/js/26.4bd2d876.js"><link rel="prefetch" href="/assets/js/27.17e8d464.js"><link rel="prefetch" href="/assets/js/28.9577b17c.js"><link rel="prefetch" href="/assets/js/29.df82d6d5.js"><link rel="prefetch" href="/assets/js/30.093e5edd.js"><link rel="prefetch" href="/assets/js/31.6654b110.js"><link rel="prefetch" href="/assets/js/32.e7a4d97b.js"><link rel="prefetch" href="/assets/js/33.2426d859.js"><link rel="prefetch" href="/assets/js/34.d84cf12c.js"><link rel="prefetch" href="/assets/js/35.bbd1e08c.js"><link rel="prefetch" href="/assets/js/36.986644b0.js"><link rel="prefetch" href="/assets/js/37.bb47eb25.js"><link rel="prefetch" href="/assets/js/38.7c14d20f.js"><link rel="prefetch" href="/assets/js/39.962bdec8.js"><link rel="prefetch" href="/assets/js/40.1d76f9a8.js"><link rel="prefetch" href="/assets/js/41.fea9b52b.js"><link rel="prefetch" href="/assets/js/42.792aa852.js"><link rel="prefetch" href="/assets/js/43.6ae45e44.js"><link rel="prefetch" href="/assets/js/44.26bfd5b6.js"><link rel="prefetch" href="/assets/js/45.ca0119a6.js"><link rel="prefetch" href="/assets/js/46.45f66eb3.js"><link rel="prefetch" href="/assets/js/47.45352619.js"><link rel="prefetch" href="/assets/js/48.e621275c.js"><link rel="prefetch" href="/assets/js/49.4ad9885b.js"><link rel="prefetch" href="/assets/js/5.ab808bb0.js"><link rel="prefetch" href="/assets/js/50.2b740c30.js"><link rel="prefetch" href="/assets/js/51.ca193b0a.js"><link rel="prefetch" href="/assets/js/52.667f6de0.js"><link rel="prefetch" href="/assets/js/53.ed0bc909.js"><link rel="prefetch" href="/assets/js/54.54872453.js"><link rel="prefetch" href="/assets/js/55.a17541a0.js"><link rel="prefetch" href="/assets/js/56.54031c59.js"><link rel="prefetch" href="/assets/js/57.b5b866a2.js"><link rel="prefetch" href="/assets/js/58.bed90544.js"><link rel="prefetch" href="/assets/js/59.a1340a53.js"><link rel="prefetch" href="/assets/js/6.39786c5d.js"><link rel="prefetch" href="/assets/js/60.38fc81b4.js"><link rel="prefetch" href="/assets/js/61.b47f1aa8.js"><link rel="prefetch" href="/assets/js/62.2359148f.js"><link rel="prefetch" href="/assets/js/63.2fd05f37.js"><link rel="prefetch" href="/assets/js/64.5b486d41.js"><link rel="prefetch" href="/assets/js/65.028b1057.js"><link rel="prefetch" href="/assets/js/66.47950f79.js"><link rel="prefetch" href="/assets/js/67.6df6ac38.js"><link rel="prefetch" href="/assets/js/68.122f1460.js"><link rel="prefetch" href="/assets/js/69.a72ef283.js"><link rel="prefetch" href="/assets/js/7.cb034ce9.js"><link rel="prefetch" href="/assets/js/70.ed6741fa.js"><link rel="prefetch" href="/assets/js/71.18601e72.js"><link rel="prefetch" href="/assets/js/72.8e971fa1.js"><link rel="prefetch" href="/assets/js/73.f23a974c.js"><link rel="prefetch" href="/assets/js/74.ad118dd1.js"><link rel="prefetch" href="/assets/js/75.0fdaa2f5.js"><link rel="prefetch" href="/assets/js/76.0bf8c228.js"><link rel="prefetch" href="/assets/js/77.3cd40d2f.js"><link rel="prefetch" href="/assets/js/78.d47f37c9.js"><link rel="prefetch" href="/assets/js/79.ca4de411.js"><link rel="prefetch" href="/assets/js/8.49f02a59.js"><link rel="prefetch" href="/assets/js/80.706e5cec.js"><link rel="prefetch" href="/assets/js/81.96c7f194.js"><link rel="prefetch" href="/assets/js/82.2dbd4ee8.js"><link rel="prefetch" href="/assets/js/83.767221a7.js"><link rel="prefetch" href="/assets/js/84.680bfeb7.js"><link rel="prefetch" href="/assets/js/85.7582c9a9.js"><link rel="prefetch" href="/assets/js/86.37488ee7.js"><link rel="prefetch" href="/assets/js/87.bba03a6a.js"><link rel="prefetch" href="/assets/js/88.255175d1.js"><link rel="prefetch" href="/assets/js/89.cd2e837e.js"><link rel="prefetch" href="/assets/js/9.d02a72e1.js"><link rel="prefetch" href="/assets/js/90.b31b4a51.js"><link rel="prefetch" href="/assets/js/91.d0885be6.js"><link rel="prefetch" href="/assets/js/92.9c69f003.js"><link rel="prefetch" href="/assets/js/93.e6154278.js"><link rel="prefetch" href="/assets/js/94.90ce6e28.js"><link rel="prefetch" href="/assets/js/95.dfe8596b.js"><link rel="prefetch" href="/assets/js/96.03c5e642.js"><link rel="prefetch" href="/assets/js/97.233a2de3.js"><link rel="prefetch" href="/assets/js/98.2b3a8bac.js"><link rel="prefetch" href="/assets/js/99.31c9da9b.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.f1e93b00.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar" data-v-272a5bff><div data-v-272a5bff><div id="loader-wrapper" class="loading-wrapper" data-v-d48f4d20 data-v-272a5bff data-v-272a5bff><div class="loader-main" data-v-d48f4d20><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div></div> <!----> <!----></div> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-7c2f76d1 data-v-272a5bff data-v-272a5bff><h3 class="title" data-v-7c2f76d1 data-v-7c2f76d1>lushengtao</h3> <p class="description" data-v-7c2f76d1 data-v-7c2f76d1>陆盛涛的个人空间</p> <label id="box" class="inputBox" data-v-7c2f76d1 data-v-7c2f76d1><input type="password" value="" data-v-7c2f76d1> <span data-v-7c2f76d1>Konck! Knock!</span> <button data-v-7c2f76d1>OK</button></label> <div class="footer" data-v-7c2f76d1 data-v-7c2f76d1><span data-v-7c2f76d1><i class="iconfont reco-theme" data-v-7c2f76d1></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-7c2f76d1>vuePress-theme-reco</a></span> <span data-v-7c2f76d1><i class="iconfont reco-copyright" data-v-7c2f76d1></i> <a data-v-7c2f76d1><span data-v-7c2f76d1>陆盛涛</span>
+            
+          <span data-v-7c2f76d1>2021 - </span>
+          2022
+        </a></span></div></div> <div class="hide" data-v-272a5bff><header class="navbar" data-v-272a5bff><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo_.png" alt="lushengtao" class="logo"> <span class="site-name">lushengtao</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      笔记
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>前端</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/frontend/css/" class="nav-link"><i class="undefined"></i>
+  css
+</a></li><li class="dropdown-subitem"><a href="/blogs/frontend/js/" class="nav-link"><i class="undefined"></i>
+  js
+</a></li></ul></li><li class="dropdown-item"><h4>后端</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/backend/KnowledgeAccumulation/ComputerNetwork/" class="nav-link"><i class="undefined"></i>
+  计算机网络
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/KnowledgeAccumulation/OperatingSystem/" class="nav-link"><i class="undefined"></i>
+  操作系统
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/KnowledgeAccumulation/DesignPatterns/" class="nav-link"><i class="undefined"></i>
+  设计模式
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/Datastructure&amp;Algorithms/" class="nav-link"><i class="undefined"></i>
+  数据结构与算法
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/Sql/" class="nav-link"><i class="undefined"></i>
+  SQL
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/Java/" class="nav-link"><i class="undefined"></i>
+  Java
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/JavaWeb/" class="nav-link"><i class="undefined"></i>
+  JavaWeb
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/SSM/" class="nav-link"><i class="undefined"></i>
+  SSM
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/ProjectManagement/Git/" class="nav-link"><i class="undefined"></i>
+  Git
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-blog"></i>
+      生活
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/mylife/essay/" class="nav-link"><i class="iconfont reco-message"></i>
+  随笔
+</a></li><li class="dropdown-item"><!----> <a href="/mylife/book/" class="nav-link"><i class="iconfont reco-message"></i>
+  读书
+</a></li><li class="dropdown-item"><!----> <a href="/mylife/movie/" class="nav-link"><i class="iconfont reco-message"></i>
+  观影
+</a></li><li class="dropdown-item"><!----> <a href="/mylife/liferecord/" class="nav-link"><i class="iconfont reco-message"></i>
+  生活记录
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/后端/" class="nav-link"><i class="undefined"></i>
+  后端
+</a></li><li class="dropdown-item"><!----> <a href="/categories/前端/" class="nav-link"><i class="undefined"></i>
+  前端
+</a></li><li class="dropdown-item"><!----> <a href="/categories/工具/" class="nav-link"><i class="undefined"></i>
+  工具
+</a></li><li class="dropdown-item"><!----> <a href="/categories/生活/" class="nav-link"><i class="undefined"></i>
+  生活
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/aboutme.html" class="nav-link"><i class="iconfont reco-account"></i>
+  关于我
+</a></div><div class="nav-item"><a href="/messageBoard.html" class="nav-link"><i class="iconfont reco-suggestion"></i>
+  留言板
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-272a5bff></div> <aside class="sidebar" data-v-272a5bff><div class="personal-info-wrapper" data-v-25b2bb28 data-v-272a5bff><img src="/avatar_.png" alt="author-avatar" class="personal-img" data-v-25b2bb28> <h3 class="name" data-v-25b2bb28>
+    陆盛涛
+  </h3> <div class="num" data-v-25b2bb28><div data-v-25b2bb28><h3 data-v-25b2bb28>177</h3> <h6 data-v-25b2bb28>文章</h6></div> <div data-v-25b2bb28><h3 data-v-25b2bb28>38</h3> <h6 data-v-25b2bb28>标签</h6></div></div> <ul class="social-links" data-v-25b2bb28></ul> <hr data-v-25b2bb28></div> <nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      笔记
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>前端</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/frontend/css/" class="nav-link"><i class="undefined"></i>
+  css
+</a></li><li class="dropdown-subitem"><a href="/blogs/frontend/js/" class="nav-link"><i class="undefined"></i>
+  js
+</a></li></ul></li><li class="dropdown-item"><h4>后端</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/backend/KnowledgeAccumulation/ComputerNetwork/" class="nav-link"><i class="undefined"></i>
+  计算机网络
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/KnowledgeAccumulation/OperatingSystem/" class="nav-link"><i class="undefined"></i>
+  操作系统
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/KnowledgeAccumulation/DesignPatterns/" class="nav-link"><i class="undefined"></i>
+  设计模式
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/Datastructure&amp;Algorithms/" class="nav-link"><i class="undefined"></i>
+  数据结构与算法
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/Sql/" class="nav-link"><i class="undefined"></i>
+  SQL
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/Java/" class="nav-link"><i class="undefined"></i>
+  Java
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/JavaWeb/" class="nav-link"><i class="undefined"></i>
+  JavaWeb
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/SSM/" class="nav-link"><i class="undefined"></i>
+  SSM
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/ProjectManagement/Git/" class="nav-link"><i class="undefined"></i>
+  Git
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-blog"></i>
+      生活
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/mylife/essay/" class="nav-link"><i class="iconfont reco-message"></i>
+  随笔
+</a></li><li class="dropdown-item"><!----> <a href="/mylife/book/" class="nav-link"><i class="iconfont reco-message"></i>
+  读书
+</a></li><li class="dropdown-item"><!----> <a href="/mylife/movie/" class="nav-link"><i class="iconfont reco-message"></i>
+  观影
+</a></li><li class="dropdown-item"><!----> <a href="/mylife/liferecord/" class="nav-link"><i class="iconfont reco-message"></i>
+  生活记录
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/后端/" class="nav-link"><i class="undefined"></i>
+  后端
+</a></li><li class="dropdown-item"><!----> <a href="/categories/前端/" class="nav-link"><i class="undefined"></i>
+  前端
+</a></li><li class="dropdown-item"><!----> <a href="/categories/工具/" class="nav-link"><i class="undefined"></i>
+  工具
+</a></li><li class="dropdown-item"><!----> <a href="/categories/生活/" class="nav-link"><i class="undefined"></i>
+  生活
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/aboutme.html" class="nav-link"><i class="iconfont reco-account"></i>
+  关于我
+</a></div><div class="nav-item"><a href="/messageBoard.html" class="nav-link"><i class="iconfont reco-suggestion"></i>
+  留言板
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></div> <!----></nav> <!----> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-7c2f76d1 data-v-272a5bff><h3 class="title" data-v-7c2f76d1 data-v-7c2f76d1>Markdown语法</h3> <!----> <label id="box" class="inputBox" data-v-7c2f76d1 data-v-7c2f76d1><input type="password" value="" data-v-7c2f76d1> <span data-v-7c2f76d1>Konck! Knock!</span> <button data-v-7c2f76d1>OK</button></label> <div class="footer" data-v-7c2f76d1 data-v-7c2f76d1><span data-v-7c2f76d1><i class="iconfont reco-theme" data-v-7c2f76d1></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-7c2f76d1>vuePress-theme-reco</a></span> <span data-v-7c2f76d1><i class="iconfont reco-copyright" data-v-7c2f76d1></i> <a data-v-7c2f76d1><span data-v-7c2f76d1>陆盛涛</span>
+            
+          <span data-v-7c2f76d1>2021 - </span>
+          2022
+        </a></span></div></div> <div data-v-272a5bff><main class="page"><section><div class="page-title"><h1 class="title">Markdown语法</h1> <div data-v-cf73456e><i class="iconfont reco-account" data-v-cf73456e><span data-v-cf73456e>陆盛涛</span></i> <i class="iconfont reco-date" data-v-cf73456e><span data-v-cf73456e>2021/10/28</span></i> <i class="iconfont reco-eye" data-v-cf73456e><span id="/blogs/others/Markdown1.html" data-flag-title="Your Article Title" class="leancloud-visitors" data-v-cf73456e><a class="leancloud-visitors-count" style="font-size:.9rem;font-weight:normal;color:#999;"></a></span></i> <i class="tags iconfont reco-tag" data-v-cf73456e><span class="tag-item" data-v-cf73456e>Markdown</span></i></div></div> <div class="theme-reco-content content__default"><h1 id="基础markdown语法"><a href="#基础markdown语法" class="header-anchor">#</a> 基础Markdown语法</h1> <h3 id="_1-标题"><a href="#_1-标题" class="header-anchor">#</a> 1.标题</h3> <div class="language-markdown line-numbers-mode"><pre class="language-markdown"><code><span class="token title important"><span class="token punctuation">#</span> 一级标题</span>
+
+<span class="token title important"><span class="token punctuation">##</span> 二级标题</span>
+
+<span class="token title important"><span class="token punctuation">###</span> 三级标题</span>
+
+<span class="token title important"><span class="token punctuation">####</span> 四级标题</span>
+
+<span class="token title important"><span class="token punctuation">#####</span> 五级标题</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><h1 id="一级标题"><a href="#一级标题" class="header-anchor">#</a> 一级标题</h1> <h2 id="二级标题"><a href="#二级标题" class="header-anchor">#</a> 二级标题</h2> <h3 id="三级标题"><a href="#三级标题" class="header-anchor">#</a> 三级标题</h3> <h4 id="四级标题"><a href="#四级标题" class="header-anchor">#</a> 四级标题</h4> <h5 id="五级标题"><a href="#五级标题" class="header-anchor">#</a> 五级标题</h5> <h3 id="_2-列表"><a href="#_2-列表" class="header-anchor">#</a> 2.列表</h3> <div class="language-markdown line-numbers-mode"><pre class="language-markdown"><code><span class="token list punctuation">-</span> 无序列表1
+<span class="token list punctuation">-</span> 无序列表2
+<span class="token list punctuation">1.</span> 有序列表1
+<span class="token list punctuation">2.</span> 有序列表2
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><ul><li>无序列表1</li> <li>无序列表2</li></ul> <ol><li>有序列表1</li> <li>有序列表2</li></ol> <h3 id="_3-引用"><a href="#_3-引用" class="header-anchor">#</a> 3.引用</h3> <div class="language-markdown line-numbers-mode"><pre class="language-markdown"><code><span class="token blockquote punctuation">&gt;</span> 这个是引用
+<span class="token blockquote punctuation">&gt;</span>
+<span class="token blockquote punctuation">&gt;</span> 和电子邮件的引用格式很像
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><blockquote><p>这个是引用</p> <p>和电子邮件的引用格式很像</p></blockquote> <h3 id="_4-粗体和斜体"><a href="#_4-粗体和斜体" class="header-anchor">#</a> 4.粗体和斜体</h3> <div class="language-markdown line-numbers-mode"><pre class="language-markdown"><code><span class="token bold"><span class="token punctuation">**</span><span class="token content">这个是粗体</span><span class="token punctuation">**</span></span>
+
+<span class="token italic"><span class="token punctuation">*</span><span class="token content">这个是斜体</span><span class="token punctuation">*</span></span>
+
+<span class="token bold"><span class="token punctuation">**</span><span class="token content"><span class="token italic"><span class="token punctuation">*</span><span class="token content">这个是粗斜体</span><span class="token punctuation">*</span></span></span><span class="token punctuation">**</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p><strong>这个是粗体</strong></p> <p><em>这个是斜体</em></p> <p><em><strong>这个是粗斜体</strong></em></p> <h3 id="_5-链接与图片"><a href="#_5-链接与图片" class="header-anchor">#</a> 5.链接与图片</h3> <div class="language-markdown line-numbers-mode"><pre class="language-markdown"><code><span class="token url">[<span class="token content">简书</span>](<span class="token url">http://www.jianshu.com</span>)</span>
+
+ <span class="token url">[<span class="token content">link text</span>][<span class="token variable">id</span>]</span>
+
+<span class="token url-reference url"><span class="token punctuation">[</span><span class="token variable">id</span><span class="token punctuation">]</span><span class="token punctuation">:</span> http://example.com/  <span class="token string">&quot;optional title here&quot;</span></span>
+
+&lt;http://example.com/&gt; or <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>address@example.com</span><span class="token punctuation">&gt;</span></span>
+
+![](http://upload-images.jianshu.io/upload_images/259-0ad0d0bfc1c608b6.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p><a href="http://www.jianshu.com" target="_blank" rel="noopener noreferrer">简书<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p><a href="http://example.com/" title="optional title here" target="_blank" rel="noopener noreferrer">link text<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p><a href="http://example.com/" target="_blank" rel="noopener noreferrer">http://example.com/<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> or <a href="mailto:address@example.com">address@example.com</a></p> <p><img src="http://upload-images.jianshu.io/upload_images/259-0ad0d0bfc1c608b6.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p> <h3 id="_6-代码"><a href="#_6-代码" class="header-anchor">#</a> 6.代码</h3> <div class="language-markdown line-numbers-mode"><pre class="language-markdown"><code>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>php</span><span class="token punctuation">&gt;</span></span>
+       echo “hello world&quot;;
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>php</span><span class="token punctuation">&gt;</span></span>
+  Use the <span class="token code-snippet code keyword">`printf()`</span> function.
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><div class="language-php line-numbers-mode"><pre class="language-php"><code>  <span class="token operator">&lt;</span>php<span class="token operator">&gt;</span>
+       <span class="token keyword">echo</span> “hello world&quot;<span class="token punctuation">;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>php<span class="token operator">&gt;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>行内引用代码：</p> <p>Use the <code>printf()</code> function.</p> <h3 id="_7-分割线"><a href="#_7-分割线" class="header-anchor">#</a> 7.分割线</h3> <p>可以在一行中用三个以上的星号、减号、底线来建立一个分隔线</p> <hr> <h3 id="_8-markdown段落"><a href="#_8-markdown段落" class="header-anchor">#</a> 8.Markdown段落</h3> <p>段落的换行可以是使用两个以上空格加上回车</p> <p>也可以是在段落后面使用一个空行来表示重新开始一个段落</p> <h3 id="_9-下划线"><a href="#_9-下划线" class="header-anchor">#</a> 9.下划线</h3> <div class="language-markdown line-numbers-mode"><pre class="language-markdown"><code>下划线可以通过HTML的<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>u</span><span class="token punctuation">&gt;</span></span>标签来实现：  
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>u</span><span class="token punctuation">&gt;</span></span>带下划线文本<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>u</span><span class="token punctuation">&gt;</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p><u>带下划线文本</u></p> <h3 id="_10-脚注"><a href="#_10-脚注" class="header-anchor">#</a> 10.脚注</h3> <p>脚注是对文本的补充说明。</p> <p>Markdown脚注的格式如下：</p> <p><code>[^要注明的文本]</code></p> <div class="language-markdown line-numbers-mode"><pre class="language-markdown"><code>创建脚注格式类似这样 [^RUNOOB]。
+
+<span class="token url-reference url"><span class="token punctuation">[</span><span class="token variable">^RUNOOB</span><span class="token punctuation">]</span><span class="token punctuation">:</span> 菜鸟教程</span> -- 学的不仅是技术，更是梦想！！！
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>创建脚注格式类似这样 [^RUNOOB]。</p> <p>[^RUNOOB]: 菜鸟教程 -- 学的不仅是技术，更是梦想！！！</p> <h1 id="扩展markdown语法-github扩展语法"><a href="#扩展markdown语法-github扩展语法" class="header-anchor">#</a> 扩展Markdown语法(github扩展语法)</h1> <h3 id="_1-删除线"><a href="#_1-删除线" class="header-anchor">#</a> 1.删除线</h3> <div class="language-markdown line-numbers-mode"><pre class="language-markdown"><code><span class="token strike"><span class="token punctuation">~~</span><span class="token content">Mistake text.</span><span class="token punctuation">~~</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p><s>Mistake text.</s></p> <h3 id="_2-代码块与语法高亮"><a href="#_2-代码块与语法高亮" class="header-anchor">#</a> 2.代码块与语法高亮</h3> <div class="language-markdown line-numbers-mode"><pre class="language-markdown"><code>```ruby
+require 'redcarpet'
+markdown=Redcarpet.new(&quot;Hello World!&quot;)
+puts markdown.to_html
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><div class="language-ruby line-numbers-mode"><pre class="language-ruby"><code>
+```ruby
+<span class="token keyword">require</span> <span class="token string">'redcarpet'</span>
+markdown<span class="token operator">=</span><span class="token constant">Redcarpet</span><span class="token punctuation">.</span><span class="token keyword">new</span><span class="token punctuation">(</span><span class="token string">&quot;Hello World!&quot;</span><span class="token punctuation">)</span>
+puts markdown<span class="token punctuation">.</span>to_html
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h3 id="_3-表格"><a href="#_3-表格" class="header-anchor">#</a> 3.表格</h3> <div class="language-markdown line-numbers-mode"><pre class="language-markdown"><code><span class="token table"><span class="token table-header-row"><span class="token punctuation">|</span><span class="token table-header important"> Tables        </span><span class="token punctuation">|</span><span class="token table-header important">      Are      </span><span class="token punctuation">|</span><span class="token table-header important">  Cool </span><span class="token punctuation">|</span>
+</span><span class="token table-line"><span class="token punctuation">|</span> <span class="token punctuation">-------------</span> <span class="token punctuation">|</span> <span class="token punctuation">:-----------:</span> <span class="token punctuation">|</span> <span class="token punctuation">----:</span> <span class="token punctuation">|</span>
+</span><span class="token table-data-rows"><span class="token punctuation">|</span><span class="token table-data"> col 3 is      </span><span class="token punctuation">|</span><span class="token table-data"> right-aligned </span><span class="token punctuation">|</span><span class="token table-data"> $1600 </span><span class="token punctuation">|</span>
+<span class="token punctuation">|</span><span class="token table-data"> col 2 is      </span><span class="token punctuation">|</span><span class="token table-data">   centered    </span><span class="token punctuation">|</span><span class="token table-data">   $12 </span><span class="token punctuation">|</span>
+<span class="token punctuation">|</span><span class="token table-data"> zebra stripes </span><span class="token punctuation">|</span><span class="token table-data">   are neat    </span><span class="token punctuation">|</span><span class="token table-data">    $1 </span><span class="token punctuation">|</span>
+</span></span></code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><table><thead><tr><th>Tables</th> <th style="text-align:center;">Are</th> <th style="text-align:right;">Cool</th></tr></thead> <tbody><tr><td>col 3 is</td> <td style="text-align:center;">right-aligned</td> <td style="text-align:right;">$1600</td></tr> <tr><td>col 2 is</td> <td style="text-align:center;">centered</td> <td style="text-align:right;">$12</td></tr> <tr><td>zebra stripes</td> <td style="text-align:center;">are neat</td> <td style="text-align:right;">$1</td></tr></tbody></table> <h3 id="_4-任务列表"><a href="#_4-任务列表" class="header-anchor">#</a> 4.任务列表</h3> <div class="language-markdown line-numbers-mode"><pre class="language-markdown"><code> <span class="token list punctuation">-</span> [ ] @mentions, #refs, [links](), <span class="token bold"><span class="token punctuation">**</span><span class="token content">formatting</span><span class="token punctuation">**</span></span>, and <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>del</span><span class="token punctuation">&gt;</span></span>tags<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>del</span><span class="token punctuation">&gt;</span></span> are supported
+ <span class="token list punctuation">-</span> [x] list syntax is required (any unordered or ordered list supported)
+ <span class="token list punctuation">-</span> [x] this is a complete item
+ <span class="token list punctuation">-</span> [ ] this is an incomplete item
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><ul><li>[ ] @mentions, #refs, <a href="">links</a>, <strong>formatting</strong>, and <del>tags</del> are supported</li> <li>[x] list syntax is required (any unordered or ordered list supported)</li> <li>[x] this is a complete item</li> <li>[ ] this is an incomplete item</li></ul> <h1 id="其他高级用法"><a href="#其他高级用法" class="header-anchor">#</a> 其他高级用法</h1> <h3 id="_1-支持的html元素"><a href="#_1-支持的html元素" class="header-anchor">#</a> 1.支持的HTML元素</h3> <p>不在Markdown涵盖范围之内的标签，都可以直接在文档里面用HTML撰写。</p> <div class="language-markdown line-numbers-mode"><pre class="language-markdown"><code>换行：测试<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">/&gt;</span></span>一下
+标记：<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mark</span><span class="token punctuation">&gt;</span></span>测试一下<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mark</span><span class="token punctuation">&gt;</span></span>
+空格：<span class="token entity named-entity" title="&amp;nbsp;">&amp;nbsp;</span><span class="token entity named-entity" title="&amp;nbsp;">&amp;nbsp;</span><span class="token entity named-entity" title="&amp;nbsp;">&amp;nbsp;</span><span class="token entity named-entity" title="&amp;nbsp;">&amp;nbsp;</span><span class="token entity named-entity" title="&amp;nbsp;">&amp;nbsp;</span><span class="token entity named-entity" title="&amp;nbsp;">&amp;nbsp;</span><span class="token entity named-entity" title="&amp;nbsp;">&amp;nbsp;</span><span class="token entity named-entity" title="&amp;nbsp;">&amp;nbsp;</span>测试一下
+删除线：<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>s</span><span class="token punctuation">&gt;</span></span>测试一下<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>s</span><span class="token punctuation">&gt;</span></span>
+下划线：<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>u</span><span class="token punctuation">&gt;</span></span>测试一下<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>u</span><span class="token punctuation">&gt;</span></span>
+字体增大：<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>big</span><span class="token punctuation">&gt;</span></span>测试一下<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>big</span><span class="token punctuation">&gt;</span></span>
+字体减小：<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>small</span><span class="token punctuation">&gt;</span></span>测试一下<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>small</span><span class="token punctuation">&gt;</span></span>
+文字上标：测试<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>sup</span><span class="token punctuation">&gt;</span></span>一下<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>sup</span><span class="token punctuation">&gt;</span></span>
+文字下标：测试<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>sub</span><span class="token punctuation">&gt;</span></span>一下<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>sub</span><span class="token punctuation">&gt;</span></span>
+右对齐：<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">align</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span>right</span><span class="token punctuation">&gt;</span></span>测试一下<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+文字居中：<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>center</span><span class="token punctuation">&gt;</span></span>测试一下<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>center</span><span class="token punctuation">&gt;</span></span>
+图片居中：<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">align</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>center<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>//images0.cnblogs.com/blog/309368/201412/140158585091919.jpg<span class="token punctuation">&quot;</span></span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>60%<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><p>测试<br>一下</p> <p><mark>测试一下</mark></p> <p>        测试一下</p> <p><s>测试一下</s></p> <p><u>测试一下</u></p> <p><big>测试一下</big></p> <p><small>测试一下</small></p> <p>测试<sup>一下</sup></p> <p>测试<sub>一下</sub></p> <p align="right">测试一下</p> <center>测试一下</center> <p align="center"><img src="//images0.cnblogs.com/blog/309368/201412/140158585091919.jpg" width="60%"></p> <h3 id="_2-转义"><a href="#_2-转义" class="header-anchor">#</a> 2.转义</h3> <p>Markdown 使用了很多特殊符号来表示特定的意义，如果需要显示特定的符号则需要使用转义字符，Markdown 使用反斜杠转义特殊字符。</p> <p>Markdown支持<mark>以下这些符号</mark>mark&gt;前面加上反斜杠来版主插上普通的符号:</p> <div class="language-markdown line-numbers-mode"><pre class="language-markdown"><code>\   反斜线
+`   反引号
+<span class="token list punctuation">*</span>   星号
+_   下划线
+{}  花括号
+[]  方括号
+()  小括号
+<span class="token title important"><span class="token punctuation">#</span>   井字号</span>
+<span class="token list punctuation">+</span>   加号
+<span class="token list punctuation">-</span>   减号
+.   英文句点
+!   感叹号
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h3 id="_3-公式"><a href="#_3-公式" class="header-anchor">#</a> 3.公式</h3> <p>待补充</p> <h3 id="_4-画流程图-时序图-甘特图"><a href="#_4-画流程图-时序图-甘特图" class="header-anchor">#</a> 4.画流程图/时序图/甘特图</h3> <div class="language-markdown line-numbers-mode"><pre class="language-markdown"><code>①横向流程图源码格式：
+<span class="token code"><span class="token punctuation">```</span><span class="token code-language">mermaid</span>
+<span class="token code-block language-mermaid">graph LR
+A[方形] --&gt;B(圆角)
+    B --&gt; C{条件a}
+    C --&gt;|a=1| D[结果1]
+    C --&gt;|a=2| E[结果2]
+    F[横向流程图]</span>
+<span class="token punctuation">```</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><div class="language-mermaid line-numbers-mode"><pre class="language-mermaid"><code><span class="token keyword">graph</span> LR
+A<span class="token text string">[方形]</span> <span class="token arrow operator">--&gt;</span>B<span class="token text string">(圆角)</span>
+    B <span class="token arrow operator">--&gt;</span> C<span class="token text string">{条件a}</span>
+    C <span class="token arrow operator">--&gt;</span><span class="token label property">|a=1|</span> D<span class="token text string">[结果1]</span>
+    C <span class="token arrow operator">--&gt;</span><span class="token label property">|a=2|</span> E<span class="token text string">[结果2]</span>
+    F<span class="token text string">[横向流程图]</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><div class="language-markdown line-numbers-mode"><pre class="language-markdown"><code>②竖向流程图源码格式：
+<span class="token code"><span class="token punctuation">```</span><span class="token code-language">mermaid</span>
+<span class="token code-block language-mermaid"><span class="token keyword">graph</span> TD
+A<span class="token text string">[方形]</span> <span class="token arrow operator">--&gt;</span> B<span class="token text string">(圆角)</span>
+    B <span class="token arrow operator">--&gt;</span> C<span class="token text string">{条件a}</span>
+    C <span class="token arrow operator">--&gt;</span> <span class="token label property">|a=1|</span> D<span class="token text string">[结果1]</span>
+    C <span class="token arrow operator">--&gt;</span> <span class="token label property">|a=2|</span> E<span class="token text string">[结果2]</span>
+    F<span class="token text string">[竖向流程图]</span></span>
+<span class="token punctuation">```</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><div class="language-mermaid line-numbers-mode"><pre class="language-mermaid"><code><span class="token keyword">graph</span> TD
+A<span class="token text string">[方形]</span> <span class="token arrow operator">--&gt;</span> B<span class="token text string">(圆角)</span>
+    B <span class="token arrow operator">--&gt;</span> C<span class="token text string">{条件a}</span>
+    C <span class="token arrow operator">--&gt;</span> <span class="token label property">|a=1|</span> D<span class="token text string">[结果1]</span>
+    C <span class="token arrow operator">--&gt;</span> <span class="token label property">|a=2|</span> E<span class="token text string">[结果2]</span>
+    F<span class="token text string">[竖向流程图]</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><div class="language-markdown line-numbers-mode"><pre class="language-markdown"><code>③标准流程图源码格式
+<span class="token code"><span class="token punctuation">```</span><span class="token code-language">flow</span>
+<span class="token code-block language-flow">st=&gt;start: 开始框
+op=&gt;operation: 处理框
+cond=&gt;condition: 判断框(是或否?)
+sub1=&gt;subroutine: 子流程
+io=&gt;inputoutput: 输入输出框
+e=&gt;end: 结束框
+st-&gt;op-&gt;cond
+cond(yes)-&gt;io-&gt;e
+cond(no)-&gt;sub1(right)-&gt;op</span>
+<span class="token punctuation">```</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><div class="language-flow line-numbers-mode"><pre class="language-flow"><code>st<span class="token operator">=&gt;</span>start<span class="token operator">:</span> 开始框
+op<span class="token operator">=&gt;</span>operation<span class="token operator">:</span> 处理框
+cond<span class="token operator">=&gt;</span>condition<span class="token operator">:</span> <span class="token function">判断框</span><span class="token punctuation">(</span>是或否<span class="token operator">?</span><span class="token punctuation">)</span>
+sub1<span class="token operator">=&gt;</span>subroutine<span class="token operator">:</span> 子流程
+io<span class="token operator">=&gt;</span>inputoutput<span class="token operator">:</span> 输入输出框
+e<span class="token operator">=&gt;</span>end<span class="token operator">:</span> 结束框
+st<span class="token operator">-</span><span class="token operator">&gt;</span>op<span class="token operator">-</span><span class="token operator">&gt;</span>cond
+<span class="token function">cond</span><span class="token punctuation">(</span>yes<span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">&gt;</span>io<span class="token operator">-</span><span class="token operator">&gt;</span>e
+<span class="token function">cond</span><span class="token punctuation">(</span>no<span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">sub1</span><span class="token punctuation">(</span>right<span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">&gt;</span>op
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><div class="language-markdown line-numbers-mode"><pre class="language-markdown"><code>④标准流程图源码格式（横向）
+<span class="token code"><span class="token punctuation">```</span><span class="token code-language">flow</span>
+<span class="token code-block language-flow">st<span class="token operator">=&gt;</span>start<span class="token operator">:</span> 开始框
+op<span class="token operator">=&gt;</span>operation<span class="token operator">:</span> 处理框
+cond<span class="token operator">=&gt;</span>condition<span class="token operator">:</span> <span class="token function">判断框</span><span class="token punctuation">(</span>是或否<span class="token operator">?</span><span class="token punctuation">)</span>
+sub1<span class="token operator">=&gt;</span>subroutine<span class="token operator">:</span> 子流程
+io<span class="token operator">=&gt;</span>inputoutput<span class="token operator">:</span> 输入输出框
+e<span class="token operator">=&gt;</span>end<span class="token operator">:</span> 结束框
+<span class="token function">st</span><span class="token punctuation">(</span>right<span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">op</span><span class="token punctuation">(</span>right<span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">&gt;</span>cond
+<span class="token function">cond</span><span class="token punctuation">(</span>yes<span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">io</span><span class="token punctuation">(</span>bottom<span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">&gt;</span>e
+<span class="token function">cond</span><span class="token punctuation">(</span>no<span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">sub1</span><span class="token punctuation">(</span>right<span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">&gt;</span>op</span>
+<span class="token punctuation">```</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><div class="language-flow line-numbers-mode"><pre class="language-flow"><code>st<span class="token operator">=&gt;</span>start<span class="token operator">:</span> 开始框
+op<span class="token operator">=&gt;</span>operation<span class="token operator">:</span> 处理框
+cond<span class="token operator">=&gt;</span>condition<span class="token operator">:</span> <span class="token function">判断框</span><span class="token punctuation">(</span>是或否<span class="token operator">?</span><span class="token punctuation">)</span>
+sub1<span class="token operator">=&gt;</span>subroutine<span class="token operator">:</span> 子流程
+io<span class="token operator">=&gt;</span>inputoutput<span class="token operator">:</span> 输入输出框
+e<span class="token operator">=&gt;</span>end<span class="token operator">:</span> 结束框
+<span class="token function">st</span><span class="token punctuation">(</span>right<span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">op</span><span class="token punctuation">(</span>right<span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">&gt;</span>cond
+<span class="token function">cond</span><span class="token punctuation">(</span>yes<span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">io</span><span class="token punctuation">(</span>bottom<span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">&gt;</span>e
+<span class="token function">cond</span><span class="token punctuation">(</span>no<span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">sub1</span><span class="token punctuation">(</span>right<span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">&gt;</span>op
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><div class="language-markdown line-numbers-mode"><pre class="language-markdown"><code>⑤UML时序图源码样例：
+<span class="token code"><span class="token punctuation">```</span><span class="token code-language">sequence</span>
+<span class="token code-block language-sequence">对象A-&gt;对象B: 对象B你好吗?（请求）
+Note right of 对象B: 对象B的描述
+Note left of 对象A: 对象A的描述(提示)
+对象B--&gt;对象A: 我很好(响应)
+对象A-&gt;对象B: 你真的好吗？</span>
+<span class="token punctuation">```</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><div class="language-sequence line-numbers-mode"><pre class="language-text"><code>对象A-&gt;对象B: 对象B你好吗?（请求）
+Note right of 对象B: 对象B的描述
+Note left of 对象A: 对象A的描述(提示)
+对象B--&gt;对象A: 我很好(响应)
+对象A-&gt;对象B: 你真的好吗？
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><div class="language-markdown line-numbers-mode"><pre class="language-markdown"><code>⑥UML时序图源码复杂样例：
+<span class="token code"><span class="token punctuation">```</span><span class="token code-language">sequence</span>
+<span class="token code-block language-sequence">Title: 标题：复杂使用
+对象A-&gt;对象B: 对象B你好吗?（请求）
+Note right of 对象B: 对象B的描述
+Note left of 对象A: 对象A的描述(提示)
+对象B--&gt;对象A: 我很好(响应)
+对象B-&gt;小三: 你好吗
+小三--&gt;&gt;对象A: 对象B找我了
+对象A-&gt;对象B: 你真的好吗？
+Note over 小三,对象B: 我们是朋友
+participant C
+Note right of C: 没人陪我玩</span>
+<span class="token punctuation">```</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><div class="language-sequence line-numbers-mode"><pre class="language-text"><code>Title: 标题：复杂使用
+对象A-&gt;对象B: 对象B你好吗?（请求）
+Note right of 对象B: 对象B的描述
+Note left of 对象A: 对象A的描述(提示)
+对象B--&gt;对象A: 我很好(响应)
+对象B-&gt;小三: 你好吗
+小三--&gt;&gt;对象A: 对象B找我了
+对象A-&gt;对象B: 你真的好吗？
+Note over 小三,对象B: 我们是朋友
+participant C
+Note right of C: 没人陪我玩
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><div class="language-markdown line-numbers-mode"><pre class="language-markdown"><code>⑦UML标准时序图样例
+<span class="token code"><span class="token punctuation">```</span><span class="token code-language">mermaid</span>
+<span class="token code-block language-mermaid"><span class="token comment">%% 时序图例子,-&gt; 直线，--&gt;虚线，-&gt;&gt;实线箭头</span>
+  <span class="token keyword">sequenceDiagram</span>
+    <span class="token keyword">participant</span> 张三
+    <span class="token keyword">participant</span> 李四
+    张三<span class="token arrow operator">-&gt;</span>王五<span class="token operator">:</span> 王五你好吗？
+    <span class="token keyword">loop</span> 健康检查
+        王五<span class="token arrow operator">-&gt;</span>王五<span class="token operator">:</span> 与疾病战斗
+    <span class="token keyword">end</span>
+    <span class="token keyword">Note right of</span> 王五<span class="token operator">:</span> 合理 食物 &lt;br/&gt;看医生...
+    李四<span class="token arrow operator">--&gt;&gt;</span>张三<span class="token operator">:</span> 很好!
+    王五<span class="token arrow operator">-&gt;</span>李四<span class="token operator">:</span> 你怎么样?
+    李四<span class="token arrow operator">--&gt;</span>王五<span class="token operator">:</span> 很好!</span>
+<span class="token punctuation">```</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><div class="language-mermaid line-numbers-mode"><pre class="language-mermaid"><code><span class="token comment">%% 时序图例子,-&gt; 直线，--&gt;虚线，-&gt;&gt;实线箭头</span>
+  <span class="token keyword">sequenceDiagram</span>
+    <span class="token keyword">participant</span> 张三
+    <span class="token keyword">participant</span> 李四
+    张三<span class="token arrow operator">-&gt;</span>王五<span class="token operator">:</span> 王五你好吗？
+    <span class="token keyword">loop</span> 健康检查
+        王五<span class="token arrow operator">-&gt;</span>王五<span class="token operator">:</span> 与疾病战斗
+    <span class="token keyword">end</span>
+    <span class="token keyword">Note right of</span> 王五<span class="token operator">:</span> 合理 食物 &lt;br/&gt;看医生...
+    李四<span class="token arrow operator">--&gt;&gt;</span>张三<span class="token operator">:</span> 很好!
+    王五<span class="token arrow operator">-&gt;</span>李四<span class="token operator">:</span> 你怎么样?
+    李四<span class="token arrow operator">--&gt;</span>王五<span class="token operator">:</span> 很好!
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><div class="language-markdown line-numbers-mode"><pre class="language-markdown"><code>⑧甘特图样例：
+<span class="token code"><span class="token punctuation">```</span><span class="token code-language">mermaid</span>
+<span class="token code-block language-mermaid"><span class="token comment">%% 语法示例</span>
+        <span class="token keyword">gantt</span>
+        dateFormat  YYYY-MM-DD
+        title 软件开发甘特图
+        section 设计
+        需求                      <span class="token operator">:</span>done,    des1, 2014-01-06,2014-01-08
+        原型                      <span class="token operator">:</span>active,  des2, 2014-01-09, 3d
+        UI设计                     <span class="token operator">:</span>         des3, after des2, 5d
+    未来任务                     <span class="token operator">:</span>         des4, after des3, 5d
+        section 开发
+        学习准备理解需求                      <span class="token operator">:</span>crit, done, 2014-01-06,24h
+        设计框架                             <span class="token operator">:</span>crit, done, after des2, 2d
+        开发                                 <span class="token operator">:</span>crit, active, 3d
+        未来任务                              <span class="token operator">:</span>crit, 5d
+        耍                                   <span class="token operator">:</span>2d
+        section 测试
+        功能测试                              <span class="token operator">:</span>active, a1, after des3, 3d
+        压力测试                               <span class="token operator">:</span>after a1  , 20h
+        测试报告                               <span class="token operator">:</span> 48h</span>
+<span class="token punctuation">```</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br></div></div><div class="language-mermaid line-numbers-mode"><pre class="language-mermaid"><code><span class="token comment">%% 语法示例</span>
+        <span class="token keyword">gantt</span>
+        dateFormat  YYYY-MM-DD
+        title 软件开发甘特图
+        section 设计
+        需求                      <span class="token operator">:</span>done,    des1, 2014-01-06,2014-01-08
+        原型                      <span class="token operator">:</span>active,  des2, 2014-01-09, 3d
+        UI设计                     <span class="token operator">:</span>         des3, after des2, 5d
+    未来任务                     <span class="token operator">:</span>         des4, after des3, 5d
+        section 开发
+        学习准备理解需求                      <span class="token operator">:</span>crit, done, 2014-01-06,24h
+        设计框架                             <span class="token operator">:</span>crit, done, after des2, 2d
+        开发                                 <span class="token operator">:</span>crit, active, 3d
+        未来任务                              <span class="token operator">:</span>crit, 5d
+        耍                                   <span class="token operator">:</span>2d
+        section 测试
+        功能测试                              <span class="token operator">:</span>active, a1, after des3, 3d
+        压力测试                               <span class="token operator">:</span>after a1  , 20h
+        测试报告                               <span class="token operator">:</span> 48h
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><h2 id="参考链接"><a href="#参考链接" class="header-anchor">#</a> 参考链接</h2> <ol><li><a href="https://blog.csdn.net/witnessai1/article/details/52551362" target="_blank" rel="noopener noreferrer">Markdown 语法手册 （完整整理版）<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li><a href="https://www.appinn.com/markdown/" target="_blank" rel="noopener noreferrer">Markdown语法说明<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ol></div></section> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">2021/11/26上午6:46:31</span></div></footer> <!----> <div class="comments-wrapper"><!----></div> <ul class="side-bar sub-sidebar-wrapper" style="width:12rem;" data-v-106c08ae><li class="level-3" data-v-106c08ae><a href="/blogs/others/Markdown1.html#_1-标题" class="sidebar-link reco-side-_1-标题" data-v-106c08ae>1.标题</a></li><li class="level-2" data-v-106c08ae><a href="/blogs/others/Markdown1.html#二级标题" class="sidebar-link reco-side-二级标题" data-v-106c08ae>二级标题</a></li><li class="level-3" data-v-106c08ae><a href="/blogs/others/Markdown1.html#三级标题" class="sidebar-link reco-side-三级标题" data-v-106c08ae>三级标题</a></li><li class="level-3" data-v-106c08ae><a href="/blogs/others/Markdown1.html#_2-列表" class="sidebar-link reco-side-_2-列表" data-v-106c08ae>2.列表</a></li><li class="level-3" data-v-106c08ae><a href="/blogs/others/Markdown1.html#_3-引用" class="sidebar-link reco-side-_3-引用" data-v-106c08ae>3.引用</a></li><li class="level-3" data-v-106c08ae><a href="/blogs/others/Markdown1.html#_4-粗体和斜体" class="sidebar-link reco-side-_4-粗体和斜体" data-v-106c08ae>4.粗体和斜体</a></li><li class="level-3" data-v-106c08ae><a href="/blogs/others/Markdown1.html#_5-链接与图片" class="sidebar-link reco-side-_5-链接与图片" data-v-106c08ae>5.链接与图片</a></li><li class="level-3" data-v-106c08ae><a href="/blogs/others/Markdown1.html#_6-代码" class="sidebar-link reco-side-_6-代码" data-v-106c08ae>6.代码</a></li><li class="level-3" data-v-106c08ae><a href="/blogs/others/Markdown1.html#_7-分割线" class="sidebar-link reco-side-_7-分割线" data-v-106c08ae>7.分割线</a></li><li class="level-3" data-v-106c08ae><a href="/blogs/others/Markdown1.html#_8-markdown段落" class="sidebar-link reco-side-_8-markdown段落" data-v-106c08ae>8.Markdown段落</a></li><li class="level-3" data-v-106c08ae><a href="/blogs/others/Markdown1.html#_9-下划线" class="sidebar-link reco-side-_9-下划线" data-v-106c08ae>9.下划线</a></li><li class="level-3" data-v-106c08ae><a href="/blogs/others/Markdown1.html#_10-脚注" class="sidebar-link reco-side-_10-脚注" data-v-106c08ae>10.脚注</a></li><li class="level-3" data-v-106c08ae><a href="/blogs/others/Markdown1.html#_1-删除线" class="sidebar-link reco-side-_1-删除线" data-v-106c08ae>1.删除线</a></li><li class="level-3" data-v-106c08ae><a href="/blogs/others/Markdown1.html#_2-代码块与语法高亮" class="sidebar-link reco-side-_2-代码块与语法高亮" data-v-106c08ae>2.代码块与语法高亮</a></li><li class="level-3" data-v-106c08ae><a href="/blogs/others/Markdown1.html#_3-表格" class="sidebar-link reco-side-_3-表格" data-v-106c08ae>3.表格</a></li><li class="level-3" data-v-106c08ae><a href="/blogs/others/Markdown1.html#_4-任务列表" class="sidebar-link reco-side-_4-任务列表" data-v-106c08ae>4.任务列表</a></li><li class="level-3" data-v-106c08ae><a href="/blogs/others/Markdown1.html#_1-支持的html元素" class="sidebar-link reco-side-_1-支持的html元素" data-v-106c08ae>1.支持的HTML元素</a></li><li class="level-3" data-v-106c08ae><a href="/blogs/others/Markdown1.html#_2-转义" class="sidebar-link reco-side-_2-转义" data-v-106c08ae>2.转义</a></li><li class="level-3" data-v-106c08ae><a href="/blogs/others/Markdown1.html#_3-公式" class="sidebar-link reco-side-_3-公式" data-v-106c08ae>3.公式</a></li><li class="level-3" data-v-106c08ae><a href="/blogs/others/Markdown1.html#_4-画流程图-时序图-甘特图" class="sidebar-link reco-side-_4-画流程图-时序图-甘特图" data-v-106c08ae>4.画流程图/时序图/甘特图</a></li><li class="level-2" data-v-106c08ae><a href="/blogs/others/Markdown1.html#参考链接" class="sidebar-link reco-side-参考链接" data-v-106c08ae>参考链接</a></li></ul></main> <!----></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div><div class="kanbanniang" data-v-5775ee02><div class="banniang-container" style="display:;" data-v-5775ee02><div class="messageBox" style="right:68px;bottom:290px;display:none;" data-v-5775ee02>
+      欢迎来到我的博客
+    </div> <div class="operation" style="right:90px;bottom:40px;display:;" data-v-5775ee02><i class="kbnfont kbn-ban-home ban-home" data-v-5775ee02></i> <i class="kbnfont kbn-ban-message message" data-v-5775ee02></i> <i class="kbnfont kbn-ban-close close" data-v-5775ee02></i> <a target="_blank" href="https://vuepress-theme-reco.recoluan.com/views/plugins/kanbanniang.html" data-v-5775ee02><i class="kbnfont kbn-ban-info info" data-v-5775ee02></i></a> <i class="kbnfont kbn-ban-theme skin" style="display:;" data-v-5775ee02></i></div> <canvas id="banniang" width="260px" height="280" class="live2d" style="right:90px;bottom:-20px;opacity:0.9;" data-v-5775ee02></canvas></div> <div class="showBanNiang" style="display:none;" data-v-5775ee02>
+    看板娘
+  </div></div><APlayer audio="" fixed="true" mini="true" autoplay="autoplay" theme="#f9bcdd" loop="loop" order="random" preload="auto" volume="0.1" mutex="true" lrc-type="0" list-folded="true" list-max-height="250" storage-name="vuepress-plugin-meting" id="aplayer-fixed"></APlayer><canvas id="vuepress-canvas-cursor"></canvas><!----></div></div>
+    <script src="/assets/js/app.dc55515c.js" defer></script><script src="/assets/js/4.729c08cb.js" defer></script><script src="/assets/js/1.5e2c7173.js" defer></script><script src="/assets/js/148.edfbe037.js" defer></script>
+  </body>
+</html>

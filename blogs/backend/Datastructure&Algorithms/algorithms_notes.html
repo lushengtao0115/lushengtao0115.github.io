@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>算法每日学习杂记 | lushengtao</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/favicon.ico">
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?ed408e57f8fef03022d7a497af6f4db3";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+      </script>
+    <meta name="description" content="陆盛涛的个人空间">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/assets/css/0.styles.f1e93b00.css" as="style"><link rel="preload" href="/assets/js/app.dc55515c.js" as="script"><link rel="preload" href="/assets/js/4.729c08cb.js" as="script"><link rel="preload" href="/assets/js/1.5e2c7173.js" as="script"><link rel="preload" href="/assets/js/14.2b18c814.js" as="script"><link rel="prefetch" href="/assets/js/10.42eaf00d.js"><link rel="prefetch" href="/assets/js/100.fa30cbec.js"><link rel="prefetch" href="/assets/js/101.e65682f2.js"><link rel="prefetch" href="/assets/js/102.e72e0341.js"><link rel="prefetch" href="/assets/js/103.17fb0df4.js"><link rel="prefetch" href="/assets/js/104.0ed7db7c.js"><link rel="prefetch" href="/assets/js/105.3b75fe73.js"><link rel="prefetch" href="/assets/js/106.2dc4e405.js"><link rel="prefetch" href="/assets/js/107.850bf0db.js"><link rel="prefetch" href="/assets/js/108.2aaf45fc.js"><link rel="prefetch" href="/assets/js/109.0561c0a4.js"><link rel="prefetch" href="/assets/js/11.9ca98047.js"><link rel="prefetch" href="/assets/js/110.9ea4f28f.js"><link rel="prefetch" href="/assets/js/111.080b4d19.js"><link rel="prefetch" href="/assets/js/112.b3f65d65.js"><link rel="prefetch" href="/assets/js/113.ec8ba683.js"><link rel="prefetch" href="/assets/js/114.24e6b5a5.js"><link rel="prefetch" href="/assets/js/115.9d13d3f6.js"><link rel="prefetch" href="/assets/js/116.0e429396.js"><link rel="prefetch" href="/assets/js/117.bb94f835.js"><link rel="prefetch" href="/assets/js/118.72f18fd7.js"><link rel="prefetch" href="/assets/js/119.65f87c71.js"><link rel="prefetch" href="/assets/js/12.35157320.js"><link rel="prefetch" href="/assets/js/120.2f33df4b.js"><link rel="prefetch" href="/assets/js/121.a8fff795.js"><link rel="prefetch" href="/assets/js/122.3b78dbe3.js"><link rel="prefetch" href="/assets/js/123.c4f2c011.js"><link rel="prefetch" href="/assets/js/124.349299c9.js"><link rel="prefetch" href="/assets/js/125.5d45ffeb.js"><link rel="prefetch" href="/assets/js/126.b47268cd.js"><link rel="prefetch" href="/assets/js/127.03c3a900.js"><link rel="prefetch" href="/assets/js/128.1d0e178a.js"><link rel="prefetch" href="/assets/js/129.bcf01d36.js"><link rel="prefetch" href="/assets/js/13.c2c9eeec.js"><link rel="prefetch" href="/assets/js/130.20a4ac3c.js"><link rel="prefetch" href="/assets/js/131.cdd30bb3.js"><link rel="prefetch" href="/assets/js/132.58b2f643.js"><link rel="prefetch" href="/assets/js/133.7921d960.js"><link rel="prefetch" href="/assets/js/134.8ff8d2d5.js"><link rel="prefetch" href="/assets/js/135.d6e7d8fb.js"><link rel="prefetch" href="/assets/js/136.cd08b37b.js"><link rel="prefetch" href="/assets/js/137.4bf6db81.js"><link rel="prefetch" href="/assets/js/138.3b3892a1.js"><link rel="prefetch" href="/assets/js/139.8674340a.js"><link rel="prefetch" href="/assets/js/140.08d9d25f.js"><link rel="prefetch" href="/assets/js/141.891c3179.js"><link rel="prefetch" href="/assets/js/142.50576149.js"><link rel="prefetch" href="/assets/js/143.d555ef74.js"><link rel="prefetch" href="/assets/js/144.131b6f4c.js"><link rel="prefetch" href="/assets/js/145.a5536adf.js"><link rel="prefetch" href="/assets/js/146.400808c6.js"><link rel="prefetch" href="/assets/js/147.16bbf9a3.js"><link rel="prefetch" href="/assets/js/148.edfbe037.js"><link rel="prefetch" href="/assets/js/149.edd32cee.js"><link rel="prefetch" href="/assets/js/15.643cf9aa.js"><link rel="prefetch" href="/assets/js/150.a76a8ef7.js"><link rel="prefetch" href="/assets/js/151.0cf5173e.js"><link rel="prefetch" href="/assets/js/152.f747a615.js"><link rel="prefetch" href="/assets/js/153.19126610.js"><link rel="prefetch" href="/assets/js/154.928aae9a.js"><link rel="prefetch" href="/assets/js/155.6299b62b.js"><link rel="prefetch" href="/assets/js/156.e9d55dba.js"><link rel="prefetch" href="/assets/js/157.5652c0c6.js"><link rel="prefetch" href="/assets/js/158.39fd36e4.js"><link rel="prefetch" href="/assets/js/159.b12fded9.js"><link rel="prefetch" href="/assets/js/16.b1262f01.js"><link rel="prefetch" href="/assets/js/160.8d7491af.js"><link rel="prefetch" href="/assets/js/161.d1763267.js"><link rel="prefetch" href="/assets/js/162.cd44623a.js"><link rel="prefetch" href="/assets/js/163.c8fd1070.js"><link rel="prefetch" href="/assets/js/164.be05726d.js"><link rel="prefetch" href="/assets/js/165.12577b20.js"><link rel="prefetch" href="/assets/js/166.482523c7.js"><link rel="prefetch" href="/assets/js/167.3eb75274.js"><link rel="prefetch" href="/assets/js/168.5d563696.js"><link rel="prefetch" href="/assets/js/169.fc01bad6.js"><link rel="prefetch" href="/assets/js/17.fbf4e6a8.js"><link rel="prefetch" href="/assets/js/170.7d881501.js"><link rel="prefetch" href="/assets/js/171.a716b1c9.js"><link rel="prefetch" href="/assets/js/172.8116bd99.js"><link rel="prefetch" href="/assets/js/173.f77ebb92.js"><link rel="prefetch" href="/assets/js/174.489a816a.js"><link rel="prefetch" href="/assets/js/175.ab795b1b.js"><link rel="prefetch" href="/assets/js/176.308daa82.js"><link rel="prefetch" href="/assets/js/177.d16b5cd8.js"><link rel="prefetch" href="/assets/js/178.4ff50632.js"><link rel="prefetch" href="/assets/js/179.2688c654.js"><link rel="prefetch" href="/assets/js/18.c83c09b6.js"><link rel="prefetch" href="/assets/js/180.c2a8307e.js"><link rel="prefetch" href="/assets/js/181.b07f6199.js"><link rel="prefetch" href="/assets/js/182.7418b85d.js"><link rel="prefetch" href="/assets/js/183.de936341.js"><link rel="prefetch" href="/assets/js/184.f9055235.js"><link rel="prefetch" href="/assets/js/185.a6ae9eb7.js"><link rel="prefetch" href="/assets/js/186.ab0111d5.js"><link rel="prefetch" href="/assets/js/187.de8e9e8c.js"><link rel="prefetch" href="/assets/js/188.bf2f6f75.js"><link rel="prefetch" href="/assets/js/189.361ea870.js"><link rel="prefetch" href="/assets/js/19.94d0293a.js"><link rel="prefetch" href="/assets/js/190.b4ba0794.js"><link rel="prefetch" href="/assets/js/191.fd415193.js"><link rel="prefetch" href="/assets/js/192.196bcfe9.js"><link rel="prefetch" href="/assets/js/193.c22180e2.js"><link rel="prefetch" href="/assets/js/2.dbb458f5.js"><link rel="prefetch" href="/assets/js/20.b20a312a.js"><link rel="prefetch" href="/assets/js/21.b8b880bf.js"><link rel="prefetch" href="/assets/js/22.39a68dc4.js"><link rel="prefetch" href="/assets/js/23.3ede09b3.js"><link rel="prefetch" href="/assets/js/24.50e2d796.js"><link rel="prefetch" href="/assets/js/25.6488ae12.js"><link rel="prefetch" href="/assets/js/26.4bd2d876.js"><link rel="prefetch" href="/assets/js/27.17e8d464.js"><link rel="prefetch" href="/assets/js/28.9577b17c.js"><link rel="prefetch" href="/assets/js/29.df82d6d5.js"><link rel="prefetch" href="/assets/js/30.093e5edd.js"><link rel="prefetch" href="/assets/js/31.6654b110.js"><link rel="prefetch" href="/assets/js/32.e7a4d97b.js"><link rel="prefetch" href="/assets/js/33.2426d859.js"><link rel="prefetch" href="/assets/js/34.d84cf12c.js"><link rel="prefetch" href="/assets/js/35.bbd1e08c.js"><link rel="prefetch" href="/assets/js/36.986644b0.js"><link rel="prefetch" href="/assets/js/37.bb47eb25.js"><link rel="prefetch" href="/assets/js/38.7c14d20f.js"><link rel="prefetch" href="/assets/js/39.962bdec8.js"><link rel="prefetch" href="/assets/js/40.1d76f9a8.js"><link rel="prefetch" href="/assets/js/41.fea9b52b.js"><link rel="prefetch" href="/assets/js/42.792aa852.js"><link rel="prefetch" href="/assets/js/43.6ae45e44.js"><link rel="prefetch" href="/assets/js/44.26bfd5b6.js"><link rel="prefetch" href="/assets/js/45.ca0119a6.js"><link rel="prefetch" href="/assets/js/46.45f66eb3.js"><link rel="prefetch" href="/assets/js/47.45352619.js"><link rel="prefetch" href="/assets/js/48.e621275c.js"><link rel="prefetch" href="/assets/js/49.4ad9885b.js"><link rel="prefetch" href="/assets/js/5.ab808bb0.js"><link rel="prefetch" href="/assets/js/50.2b740c30.js"><link rel="prefetch" href="/assets/js/51.ca193b0a.js"><link rel="prefetch" href="/assets/js/52.667f6de0.js"><link rel="prefetch" href="/assets/js/53.ed0bc909.js"><link rel="prefetch" href="/assets/js/54.54872453.js"><link rel="prefetch" href="/assets/js/55.a17541a0.js"><link rel="prefetch" href="/assets/js/56.54031c59.js"><link rel="prefetch" href="/assets/js/57.b5b866a2.js"><link rel="prefetch" href="/assets/js/58.bed90544.js"><link rel="prefetch" href="/assets/js/59.a1340a53.js"><link rel="prefetch" href="/assets/js/6.39786c5d.js"><link rel="prefetch" href="/assets/js/60.38fc81b4.js"><link rel="prefetch" href="/assets/js/61.b47f1aa8.js"><link rel="prefetch" href="/assets/js/62.2359148f.js"><link rel="prefetch" href="/assets/js/63.2fd05f37.js"><link rel="prefetch" href="/assets/js/64.5b486d41.js"><link rel="prefetch" href="/assets/js/65.028b1057.js"><link rel="prefetch" href="/assets/js/66.47950f79.js"><link rel="prefetch" href="/assets/js/67.6df6ac38.js"><link rel="prefetch" href="/assets/js/68.122f1460.js"><link rel="prefetch" href="/assets/js/69.a72ef283.js"><link rel="prefetch" href="/assets/js/7.cb034ce9.js"><link rel="prefetch" href="/assets/js/70.ed6741fa.js"><link rel="prefetch" href="/assets/js/71.18601e72.js"><link rel="prefetch" href="/assets/js/72.8e971fa1.js"><link rel="prefetch" href="/assets/js/73.f23a974c.js"><link rel="prefetch" href="/assets/js/74.ad118dd1.js"><link rel="prefetch" href="/assets/js/75.0fdaa2f5.js"><link rel="prefetch" href="/assets/js/76.0bf8c228.js"><link rel="prefetch" href="/assets/js/77.3cd40d2f.js"><link rel="prefetch" href="/assets/js/78.d47f37c9.js"><link rel="prefetch" href="/assets/js/79.ca4de411.js"><link rel="prefetch" href="/assets/js/8.49f02a59.js"><link rel="prefetch" href="/assets/js/80.706e5cec.js"><link rel="prefetch" href="/assets/js/81.96c7f194.js"><link rel="prefetch" href="/assets/js/82.2dbd4ee8.js"><link rel="prefetch" href="/assets/js/83.767221a7.js"><link rel="prefetch" href="/assets/js/84.680bfeb7.js"><link rel="prefetch" href="/assets/js/85.7582c9a9.js"><link rel="prefetch" href="/assets/js/86.37488ee7.js"><link rel="prefetch" href="/assets/js/87.bba03a6a.js"><link rel="prefetch" href="/assets/js/88.255175d1.js"><link rel="prefetch" href="/assets/js/89.cd2e837e.js"><link rel="prefetch" href="/assets/js/9.d02a72e1.js"><link rel="prefetch" href="/assets/js/90.b31b4a51.js"><link rel="prefetch" href="/assets/js/91.d0885be6.js"><link rel="prefetch" href="/assets/js/92.9c69f003.js"><link rel="prefetch" href="/assets/js/93.e6154278.js"><link rel="prefetch" href="/assets/js/94.90ce6e28.js"><link rel="prefetch" href="/assets/js/95.dfe8596b.js"><link rel="prefetch" href="/assets/js/96.03c5e642.js"><link rel="prefetch" href="/assets/js/97.233a2de3.js"><link rel="prefetch" href="/assets/js/98.2b3a8bac.js"><link rel="prefetch" href="/assets/js/99.31c9da9b.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.f1e93b00.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-272a5bff><div data-v-272a5bff><div id="loader-wrapper" class="loading-wrapper" data-v-d48f4d20 data-v-272a5bff data-v-272a5bff><div class="loader-main" data-v-d48f4d20><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div></div> <!----> <!----></div> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-7c2f76d1 data-v-272a5bff data-v-272a5bff><h3 class="title" data-v-7c2f76d1 data-v-7c2f76d1>lushengtao</h3> <p class="description" data-v-7c2f76d1 data-v-7c2f76d1>陆盛涛的个人空间</p> <label id="box" class="inputBox" data-v-7c2f76d1 data-v-7c2f76d1><input type="password" value="" data-v-7c2f76d1> <span data-v-7c2f76d1>Konck! Knock!</span> <button data-v-7c2f76d1>OK</button></label> <div class="footer" data-v-7c2f76d1 data-v-7c2f76d1><span data-v-7c2f76d1><i class="iconfont reco-theme" data-v-7c2f76d1></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-7c2f76d1>vuePress-theme-reco</a></span> <span data-v-7c2f76d1><i class="iconfont reco-copyright" data-v-7c2f76d1></i> <a data-v-7c2f76d1><span data-v-7c2f76d1>陆盛涛</span>
+            
+          <span data-v-7c2f76d1>2021 - </span>
+          2022
+        </a></span></div></div> <div class="hide" data-v-272a5bff><header class="navbar" data-v-272a5bff><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo_.png" alt="lushengtao" class="logo"> <span class="site-name">lushengtao</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      笔记
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>前端</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/frontend/css/" class="nav-link"><i class="undefined"></i>
+  css
+</a></li><li class="dropdown-subitem"><a href="/blogs/frontend/js/" class="nav-link"><i class="undefined"></i>
+  js
+</a></li></ul></li><li class="dropdown-item"><h4>后端</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/backend/KnowledgeAccumulation/ComputerNetwork/" class="nav-link"><i class="undefined"></i>
+  计算机网络
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/KnowledgeAccumulation/OperatingSystem/" class="nav-link"><i class="undefined"></i>
+  操作系统
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/KnowledgeAccumulation/DesignPatterns/" class="nav-link"><i class="undefined"></i>
+  设计模式
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/Datastructure&amp;Algorithms/" class="nav-link router-link-active"><i class="undefined"></i>
+  数据结构与算法
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/Sql/" class="nav-link"><i class="undefined"></i>
+  SQL
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/Java/" class="nav-link"><i class="undefined"></i>
+  Java
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/JavaWeb/" class="nav-link"><i class="undefined"></i>
+  JavaWeb
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/SSM/" class="nav-link"><i class="undefined"></i>
+  SSM
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/ProjectManagement/Git/" class="nav-link"><i class="undefined"></i>
+  Git
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-blog"></i>
+      生活
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/mylife/essay/" class="nav-link"><i class="iconfont reco-message"></i>
+  随笔
+</a></li><li class="dropdown-item"><!----> <a href="/mylife/book/" class="nav-link"><i class="iconfont reco-message"></i>
+  读书
+</a></li><li class="dropdown-item"><!----> <a href="/mylife/movie/" class="nav-link"><i class="iconfont reco-message"></i>
+  观影
+</a></li><li class="dropdown-item"><!----> <a href="/mylife/liferecord/" class="nav-link"><i class="iconfont reco-message"></i>
+  生活记录
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/后端/" class="nav-link"><i class="undefined"></i>
+  后端
+</a></li><li class="dropdown-item"><!----> <a href="/categories/前端/" class="nav-link"><i class="undefined"></i>
+  前端
+</a></li><li class="dropdown-item"><!----> <a href="/categories/工具/" class="nav-link"><i class="undefined"></i>
+  工具
+</a></li><li class="dropdown-item"><!----> <a href="/categories/生活/" class="nav-link"><i class="undefined"></i>
+  生活
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/aboutme.html" class="nav-link"><i class="iconfont reco-account"></i>
+  关于我
+</a></div><div class="nav-item"><a href="/messageBoard.html" class="nav-link"><i class="iconfont reco-suggestion"></i>
+  留言板
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-272a5bff></div> <aside class="sidebar" data-v-272a5bff><div class="personal-info-wrapper" data-v-25b2bb28 data-v-272a5bff><img src="/avatar_.png" alt="author-avatar" class="personal-img" data-v-25b2bb28> <h3 class="name" data-v-25b2bb28>
+    陆盛涛
+  </h3> <div class="num" data-v-25b2bb28><div data-v-25b2bb28><h3 data-v-25b2bb28>177</h3> <h6 data-v-25b2bb28>文章</h6></div> <div data-v-25b2bb28><h3 data-v-25b2bb28>38</h3> <h6 data-v-25b2bb28>标签</h6></div></div> <ul class="social-links" data-v-25b2bb28></ul> <hr data-v-25b2bb28></div> <nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      笔记
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>前端</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/frontend/css/" class="nav-link"><i class="undefined"></i>
+  css
+</a></li><li class="dropdown-subitem"><a href="/blogs/frontend/js/" class="nav-link"><i class="undefined"></i>
+  js
+</a></li></ul></li><li class="dropdown-item"><h4>后端</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/backend/KnowledgeAccumulation/ComputerNetwork/" class="nav-link"><i class="undefined"></i>
+  计算机网络
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/KnowledgeAccumulation/OperatingSystem/" class="nav-link"><i class="undefined"></i>
+  操作系统
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/KnowledgeAccumulation/DesignPatterns/" class="nav-link"><i class="undefined"></i>
+  设计模式
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/Datastructure&amp;Algorithms/" class="nav-link router-link-active"><i class="undefined"></i>
+  数据结构与算法
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/Sql/" class="nav-link"><i class="undefined"></i>
+  SQL
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/Java/" class="nav-link"><i class="undefined"></i>
+  Java
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/JavaWeb/" class="nav-link"><i class="undefined"></i>
+  JavaWeb
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/SSM/" class="nav-link"><i class="undefined"></i>
+  SSM
+</a></li><li class="dropdown-subitem"><a href="/blogs/backend/ProjectManagement/Git/" class="nav-link"><i class="undefined"></i>
+  Git
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-blog"></i>
+      生活
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/mylife/essay/" class="nav-link"><i class="iconfont reco-message"></i>
+  随笔
+</a></li><li class="dropdown-item"><!----> <a href="/mylife/book/" class="nav-link"><i class="iconfont reco-message"></i>
+  读书
+</a></li><li class="dropdown-item"><!----> <a href="/mylife/movie/" class="nav-link"><i class="iconfont reco-message"></i>
+  观影
+</a></li><li class="dropdown-item"><!----> <a href="/mylife/liferecord/" class="nav-link"><i class="iconfont reco-message"></i>
+  生活记录
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/后端/" class="nav-link"><i class="undefined"></i>
+  后端
+</a></li><li class="dropdown-item"><!----> <a href="/categories/前端/" class="nav-link"><i class="undefined"></i>
+  前端
+</a></li><li class="dropdown-item"><!----> <a href="/categories/工具/" class="nav-link"><i class="undefined"></i>
+  工具
+</a></li><li class="dropdown-item"><!----> <a href="/categories/生活/" class="nav-link"><i class="undefined"></i>
+  生活
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/aboutme.html" class="nav-link"><i class="iconfont reco-account"></i>
+  关于我
+</a></div><div class="nav-item"><a href="/messageBoard.html" class="nav-link"><i class="iconfont reco-suggestion"></i>
+  留言板
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></div> <!----></nav> <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>数据结构与算法</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blogs/backend/Datastructure&amp;Algorithms/" aria-current="page" class="sidebar-link">数据结构与算法简介</a></li><li><section class="sidebar-group is-sub-group depth-1"><p class="sidebar-heading open"><span>基础笔记</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blogs/backend/Datastructure&amp;Algorithms/datastructure_notes.html" class="sidebar-link">数据结构每日学习杂记</a></li><li><a href="/blogs/backend/Datastructure&amp;Algorithms/algorithms_notes.html" aria-current="page" class="active sidebar-link">算法每日学习杂记</a></li><li><a href="/blogs/backend/Datastructure&amp;Algorithms/vedio_learn.html" class="sidebar-link">学习随记</a></li></ul></section></li><li><section class="sidebar-group is-sub-group depth-1"><p class="sidebar-heading"><span>刷题</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blogs/backend/Datastructure&amp;Algorithms/exercise.html" class="sidebar-link">刷题</a></li><li><a href="/blogs/backend/Datastructure&amp;Algorithms/1_tianchi.html" class="sidebar-link">天池leetcode基础训练营</a></li></ul></section></li><li><section class="sidebar-group is-sub-group depth-1"><p class="sidebar-heading"><span>总结</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blogs/backend/Datastructure&amp;Algorithms/summary.html" class="sidebar-link">总结</a></li></ul></section></li></ul></section></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-7c2f76d1 data-v-272a5bff><h3 class="title" data-v-7c2f76d1 data-v-7c2f76d1>算法每日学习杂记</h3> <!----> <label id="box" class="inputBox" data-v-7c2f76d1 data-v-7c2f76d1><input type="password" value="" data-v-7c2f76d1> <span data-v-7c2f76d1>Konck! Knock!</span> <button data-v-7c2f76d1>OK</button></label> <div class="footer" data-v-7c2f76d1 data-v-7c2f76d1><span data-v-7c2f76d1><i class="iconfont reco-theme" data-v-7c2f76d1></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-7c2f76d1>vuePress-theme-reco</a></span> <span data-v-7c2f76d1><i class="iconfont reco-copyright" data-v-7c2f76d1></i> <a data-v-7c2f76d1><span data-v-7c2f76d1>陆盛涛</span>
+            
+          <span data-v-7c2f76d1>2021 - </span>
+          2022
+        </a></span></div></div> <div data-v-272a5bff><main class="page"><section><div class="page-title"><h1 class="title">算法每日学习杂记</h1> <div data-v-cf73456e><i class="iconfont reco-account" data-v-cf73456e><span data-v-cf73456e>陆盛涛</span></i> <i class="iconfont reco-date" data-v-cf73456e><span data-v-cf73456e>2022/1/25</span></i> <i class="iconfont reco-eye" data-v-cf73456e><span id="/blogs/backend/Datastructure&amp;Algorithms/algorithms_notes.html" data-flag-title="Your Article Title" class="leancloud-visitors" data-v-cf73456e><a class="leancloud-visitors-count" style="font-size:.9rem;font-weight:normal;color:#999;"></a></span></i> <i class="tags iconfont reco-tag" data-v-cf73456e><span class="tag-item" data-v-cf73456e>algorithms</span></i></div></div> <div class="theme-reco-content content__default"><div class="custom-block tip"><p class="title"></p><p>学习记录，待整理。</p></div> <blockquote><p>20220207递归学习《数据 结构与算法——java》总共18页</p></blockquote> <h3 id="递归-分治"><a href="#递归-分治" class="header-anchor">#</a> 递归/分治</h3> <ul><li><p>递归（recursion ）：</p> <ul><li>是指在定义自身的同时又出现了对自身的引用。如果一个算法直接或间接地调用自己，则称这个算法是一个递归算法。</li> <li>一个递归算法总是由两部分组成的：递归调用与递归终止条件。</li> <li>注意：每次调用传入的变量都不同。</li> <li>执行一个方法时，就创建一个新的受保护的独立空间（栈空间）。</li></ul></li> <li><p>(<mark>这里没有完全理解其作用</mark>)使用递归可以解决如下多方面的问题：</p> <ul><li>⑴ 问题本身的定义就是递归的，例如许多数学定义就是递归的。</li> <li>⑵ 问题本身虽然不是递归定义的，但是它所用到的数据结构是递归的，例如链表、树就可以看成是递归定义的数据结构。</li> <li>⑶ 问题的解法满足递归的性质，例如在本章后面将要介绍的一些问题。</li> <li>各种数学问题：8 皇后问题 , 汉诺塔, 阶乘问题, 迷宫问题, 球和篮子的问题(google 编程大赛)</li> <li>各种算法中也会用到递归：快排，归并排序，二分查找，分治算法等.</li> <li>将用栈解决的问题--&gt;递归代码比较简洁</li></ul></li> <li><p><strong>递归的实现与堆栈</strong></p> <ul><li>堆栈有一个重要作用：在程序语言中例如Java中实现递归。</li> <li><font style="color:red;">函数之间调用的过程，系统所做的工作</font>：
+<img src="C:\Users\hp\AppData\Roaming\Typora\typora-user-images\image-20220207040759953.png" alt="image-20220207040759953" style="zoom:50%;"></li> <li>一个递归算法的实现实际上就是多个相同函数的嵌套调用</li> <li><mark style="color:red;">重点理解</mark> <ul><li>递归方法在某些情况下却并不一定是最高效的方法，主要原因在于递归方法过于频繁的函数调用和参数传递，这会使系统有较大的开销。</li> <li>在某些情况下，若采用循环或递归算法的非递归实现，将会大大提高算法的实际执行效率。</li> <li>当然这也并不意味着不建议使用递归方法解决问题，递归仍然是非常有用和广泛使用的技术。</li></ul></li> <li>递归算法，循环方法，递归算法的非递归实现。可能有时候都能解决问题，但是需要具体问题具体对待，选择最适的方法。<mark>注意选择的技巧，重点理解</mark>。</li></ul></li> <li><p><strong>基于归纳的递归</strong></p> <blockquote><p>希望这里训练形成这样的一种思维，初步可以按照固定的形式来训练。</p></blockquote> <ul><li><p>主要思想：是将数学归纳法应用于算法设计之中。</p></li> <li><p>解释：（基本项+递推项）
+<img src="C:\Users\hp\AppData\Roaming\Typora\typora-user-images\image-20220207042001646.png" alt="image-20220207042001646" style="zoom:80%;"></p></li> <li><p>例子一：</p> <div class="language-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">// n阶汉诺塔问题</span>
+
+<span class="token comment">/*
+问题描述：
+	- 假设有 X、Y、Z 三个塔座，初始时有 n 个大小不一的盘子按照从小到大的次序放在塔座 X 上。现在要求将塔座 X 上的所有盘子移动到塔座 Z 上并保持原来的顺序，在移动过程中要满足以下要求：在塔座之间一次只能移动一个盘子并且任何时候大盘子都不能放到小盘子上。
+*/</span>
+
+<span class="token comment">/*
+基本项：
+	- 若只有一个盘子，则不需要使用过渡塔座，直接把它放到目的塔座即可。
+递归项：
+	- 如果多于一个盘子，则需要将塔座 X 上的 1 到 n-1 个盘子使用 Z 作为过渡塔
+座放到塔座 Y 上，然后将第 n 个盘子（最后一个盘子）放到塔座 Z，最后将塔座 Y 上的 n-1个盘子使用塔座 X 作为过渡放到塔座 Z。
+*/</span>
+
+<span class="token comment">/*
+问题分析：
+	- 若是只有1个盘子，直接将A--&gt;C,只需要一次
+	- 若有n个盘子，则将(n-1)个盘子从A，由C中转，放到B，即A--(C)--&gt;B。再将第n个盘子A--&gt;C。
+*/</span>
+
+<span class="token class-name">Public</span> <span class="token keyword">void</span> <span class="token function">hanio</span><span class="token punctuation">(</span><span class="token keyword">int</span> n<span class="token punctuation">,</span> <span class="token keyword">char</span> x<span class="token punctuation">,</span> <span class="token keyword">char</span> y<span class="token punctuation">,</span> <span class="token keyword">char</span> z<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>n<span class="token operator">==</span><span class="token number">1</span><span class="token punctuation">)</span> <span class="token function">move</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span> n<span class="token punctuation">,</span> z<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// 超过一个</span>
+    <span class="token keyword">else</span> <span class="token punctuation">{</span>
+        <span class="token function">hanio</span><span class="token punctuation">(</span>n<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span> x<span class="token punctuation">,</span> z<span class="token punctuation">,</span> y<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 将X上面的n-1个从Z移动到Y上去</span>
+        <span class="token function">move</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span> n<span class="token punctuation">,</span> z<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 再将X上的__移动到Z上去  (这个n是递减后的序号，一步一步地移动)</span>
+        <span class="token function">hanio</span><span class="token punctuation">(</span>n<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span> y<span class="token punctuation">,</span> x<span class="token punctuation">,</span> z<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 再将剩下的n-1个从Y经过X移动到Z上去</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">move</span><span class="token punctuation">(</span><span class="token keyword">char</span> x<span class="token punctuation">,</span> <span class="token keyword">int</span> n<span class="token punctuation">,</span> <span class="token keyword">char</span> y<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;Move&quot;</span> <span class="token operator">+</span> n <span class="token operator">+</span> <span class="token string">&quot;from&quot;</span> <span class="token operator">+</span> x <span class="token operator">+</span> <span class="token string">&quot;to&quot;</span> <span class="token operator">+</span> y<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 模拟</span>
+<span class="token comment">/*
+n=1:
+hanio(1, X, Y, Z)
+ move(X, 1, Z): Move 1 from X to Z
+
+n=2:
+hanio(2, X, Y, Z)
+ hanio(1, X, Z, Y)
+  move(X, 1, Y): Move 1 from X to Y
+ move(X, 2, Z): Move 2 from X to Y
+ hanio(1, Y, X, Z)
+  move(Y, 1, Z): Move 1 from Y to Z
+
+n=3
+
+n=4
+
+*/</span>
+
+
+<span class="token comment">/*
+**************************自己的一些理解***********************
+hanio(n, A, B, C) // 主函数，实现n个从A--(B)--&gt;C
+hanio(n-1, A, C, B)
+move(n, A, C)
+hanio(n-1, B, A, C)
+
+首先一个主函数 hanio(n, A, B, C) 完成将n个盘子从A借助B，移动到C上去（这个函数可以实现此功能，后续可以通过调用此函数实现移动）。然而由于需要满足规则，所以这不是一步完成的，因此将此函数步骤分解如下：
+	hanio(n, A, B, C) {
+	
+	}
+通过图解，我们可以先将上面的n-1个盘子（看作整体）从A上面，借助C，移动到B上去，如下：
+	hanio(n, A, B, C) {
+		hanio(n-1, A, C, B);
+	}
+再移动A上剩余的一个盘子（第n个盘子）到C上去，如下：
+	hanio(n, A, B, C) {
+		hanio(n-1, A, C, B);
+		move(n, A, C);
+	}
+再将B上的n-1个盘子（看作整体），经过A，移动到C上去，此时就完成了全部的移动，如下：
+	hanio(n, A, B, C) {
+		hanio(n-1, A, C, B);
+		move(n, A, C);
+		hanio(n-1, B, A, C);
+	}
+上述，使用到了整体的移动，但是整体的移动其实是调用函数，分解到一步一步地实现的。
+这里的move()函数是真实地移动函数，一步一步地移动。
+上述代码实现了整体功能。
+再加上递归的停止条件，如下：
+	hanio(n, A, B, C) {
+		if(n==1) {
+			move(n, A, C)
+		}
+		else {
+        	hanio(n-1, A, C, B);
+			move(n, A, C);
+			hanio(n-1, B, A, C);
+		}
+	}
+	public void move(int n ,char x, char y) {
+	  // 输出，看到移动的效果
+	}
+*/</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br><span class="line-number">70</span><br><span class="line-number">71</span><br><span class="line-number">72</span><br><span class="line-number">73</span><br><span class="line-number">74</span><br><span class="line-number">75</span><br><span class="line-number">76</span><br><span class="line-number">77</span><br><span class="line-number">78</span><br><span class="line-number">79</span><br><span class="line-number">80</span><br><span class="line-number">81</span><br><span class="line-number">82</span><br><span class="line-number">83</span><br><span class="line-number">84</span><br><span class="line-number">85</span><br><span class="line-number">86</span><br><span class="line-number">87</span><br><span class="line-number">88</span><br><span class="line-number">89</span><br><span class="line-number">90</span><br><span class="line-number">91</span><br><span class="line-number">92</span><br><span class="line-number">93</span><br><span class="line-number">94</span><br><span class="line-number">95</span><br><span class="line-number">96</span><br><span class="line-number">97</span><br><span class="line-number">98</span><br><span class="line-number">99</span><br></div></div><img src="C:\Users\hp\AppData\Roaming\Typora\typora-user-images\image-20220208042236346.png" alt="image-20220208042236346" style="zoom:80%;"> <img src="C:\Users\hp\AppData\Roaming\Typora\typora-user-images\image-20220208043653705.png" alt="image-20220208043653705" style="zoom:80%;"> <img src="C:\Users\hp\AppData\Roaming\Typora\typora-user-images\image-20220208044742875.png" alt="image-20220208044742875" style="zoom:80%;"> <img src="C:\Users\hp\AppData\Roaming\Typora\typora-user-images\image-20220208045103149.png" alt="image-20220208045103149" style="zoom:80%;"> <img src="C:\Users\hp\AppData\Roaming\Typora\typora-user-images\image-20220208045216021.png" alt="image-20220208045216021" style="zoom:80%;"> <p><img src="C:%5CUsers%5Chp%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220208045309694.png" alt="image-20220208045309694"></p></li> <li><p>例子二：</p> <div class="language-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">// 待补充</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div></li></ul></li> <li><p><strong>递推关系求解</strong></p> <ul><li><p><mark>数学归纳法</mark>：递归算法的时间复杂度是使用递推关系给出的。使用这个方法的一个问题是要有足够的观察力猜出通项(即上面的基本项+<mark>递推项</mark>)，使得这种方法有一定的难度。</p></li> <li><p><mark>迭代法</mark>：</p> <ul><li><p>定义：这是求解递推关系的另外一种方法。用这个方法估计递归方程解的渐近阶不要求推测解的渐近表达式，但要求较多的代数运算。方法的思想是迭代地展开递归方程的右端，使之成为一个非递归的和式，然后通过对和式的估计来达到对方程左端即方程的解的估计。<font style="color:red;">迭代法会导致繁杂的代数运算</font>。</p></li> <li><p>例子：</p> <img src="C:\Users\hp\AppData\Roaming\Typora\typora-user-images\image-20220209232840537.png" alt="image-20220209232840537" style="zoom:80%;"></li></ul></li> <li><p><mark>递归树</mark>：</p> <ul><li>定义：在一棵递归树中，每个节点代表了一组递推表达式中函数符号所表示的子问题的代价。我们求出树中每层节点的代价之和就得到一层的代价和，然后我们将树中每层的代价和求出来就可以确定所有递归调用的代价。使用递归树求解递推关系。</li></ul></li></ul></li> <li><p><strong>分治法的基本思想</strong></p> <ul><li>什么叫做分治法：对于一个规模为n的问题，若该问题可以容易地解决（比如说规模n较小）则直接解决，否则将其<font style="color:red;">分解为k个规模较小的子问题</font>，这些<mark><font style="color:red;">子问题互相独立且与原问题形式相同，递归地解这些子问题，然后将各子问题的解合并得到原问题的解</font></mark>。这种算法设计策略叫做分治法。</li> <li>问题的规模越小，越容易直接求解，所需的计算时间也越小。</li> <li><font style="color:red;">分治法的设计思想</font>：将一个难以直接解决的大问题，分割成一些规模较小的相同问题，以便各个击破，分而治之。如果原问题可分割成 k (1&lt; k ≤ n)个子问题，并且这些子问题都是可解的，进一步我们还可利用这些子问题的解求出原问题的解，那么此时使用分治法就是可行的。</li> <li>由分治法产生的子问题往往是原问题的较小模式，这就为使用递归技术提供了方便。</li> <li>在这种情况下，反复应用分治手段，可以使子问题与原问题类型一致而其规模却不断缩小，最终使子问题缩小到很容易直接求出其解。</li></ul></li> <li><p><strong>分治算法解决哪些问题</strong></p> <blockquote><p>分治算法是很多高效算法的基础。</p></blockquote> <ul><li>二分搜索</li> <li>大整数乘法</li> <li>棋盘覆盖</li> <li>合并排序</li> <li>快速排序</li> <li>线性时间选择</li> <li>最接近点对问题</li> <li>循环赛日程表</li></ul></li> <li><p><strong>分治算法的基本步骤</strong></p> <ul><li>分解：将原问题分解为若干个规模较小，相互独立，与原问题形式相同的子问题</li> <li>解决：若子问题规模较小而容易被解决则直接解，否则递归地解各个子问题</li> <li>合并：将各个子问题的解合并为原问题的解。</li></ul></li></ul> <center><mark>+++++++++++++++++++++++++截止线+++++++++++++++++++++++++++++++</mark></center> <blockquote><p>20220212《数据结构与算法——java》《大话数据结构》学习记录</p></blockquote> <h3 id="查找"><a href="#查找" class="header-anchor">#</a> 查找</h3> <blockquote><p>重点在于：</p> <ul><li>二分查找</li> <li>树结构查找</li> <li>散列表（哈希表）查找</li></ul></blockquote> <ul><li><p>在非数值运算问题中，数据存储量一般很大，为了在大量信息中找到某些值，需要用到查找技术，为了提高查找效率，需要对一些数据进行排序。查找和排序的数据处理量占有非
+常大的比重，故查找和排序的有效性直接影响到算法的性能，因而查找和排序是重要的处理技术</p></li> <li><p><strong>查找概论</strong> <img src="C:\Users\hp\AppData\Roaming\Typora\typora-user-images\image-20220211235627735.png" alt="image-20220211235627735" style="zoom:80%;"></p> <ul><li>查找表：是由同一类型的数据元素（或记录）构成的集合。</li> <li>关键字：是数据元素中某个数据项的值。用它可以标识一个数据元素。托此关键字可以唯一的表示一个记录，则称此关键字为主关键字。对于哪些可以识别多个数据元素的关键字，我们称为次关键字。</li> <li>查找就是根据给定的某个值，在查找表中确定一个其关键字等于给定值的数据元素（或记录）</li> <li>查找表按照操作方式可以分为：静态查找表，动态查找表（在查找过程中同时插入查找表中不存在的数据元素，或者从查找表中删除已经存在的某个数据元素）。</li></ul></li> <li><p><strong>顺序表查找</strong></p> <ul><li><p>顺序查找也叫做线性查找，是最基本的查找技术。查找过程：从第一个挨个查找比较到最后一个。</p></li> <li><p><font style="color:red;">顺序查找当n很大时，查找效率极其低下</font>。优点是算法很简单，对静态查找表的记录没有任何要求，在一些小型数据的查找很有用。</p></li> <li><p>顺序查找：
+<img src="C:\Users\hp\AppData\Roaming\Typora\typora-user-images\image-20220212001210160.png" alt="image-20220212001210160" style="zoom:80%;"></p></li> <li><p>顺序查找小优化：</p> <p>（放置哨兵，免去了每次比较后都要判断查找位置是否越界）
+<img src="C:\Users\hp\AppData\Roaming\Typora\typora-user-images\image-20220212001300323.png" alt="image-20220212001300323" style="zoom:80%;"></p></li></ul></li> <li><p><strong>有序表查找</strong></p> <ul><li>一个线性表有序时，对于查找总是很有帮助的。</li> <li><strong>折半查找（二分查找）</strong> <ul><li>前提：线性表中的记录必须是关键码有序，线性表必须采用顺序存储。对于静态查找表，一次排序后不再变化，这样的算法比较好了。但是对于需要频繁执行插入或删除操作的数据集来说，维护有序的排序会带来不小的工作量，不建议使用。</li> <li>基本思想：在有序表中，取中间记录作为比较对象，若给定值与中间记录的关键字相等，则查找成功；若给定值小于中间记录的关键字，则在中间记录的左半区继续查找......不断重复上述过程，直到查找成功。</li></ul></li> <li>插值查找</li> <li>斐波那契查找</li></ul></li> <li><p><strong>查找树</strong>：基于树的查找方法是将待查组织成特定的树结构，并在树结构的基础上实现查找的方法。主要有二叉查找树、平衡二叉树和 B-树。</p></li> <li><p><strong>二叉查找树(二叉查找树)BST</strong></p> <ul><li>它或者是一颗空树，或者是具有下列性质的二叉树：若它的左子树不空，则左子树上所有节点的值均小于它的根结构的值；反之亦然；它的左右子树也分别为二叉排序树。</li> <li>构建一颗二叉排序树的目的，其实不是为了排序，而是为了提高查找和插入删除关键字的速度。<u>在一个有序数据集上的查找，速度总是要快于无序的数据集的，而二叉排序树这种非线性的结构，也有利于插入和删除的实现</u>。即集中了前面几种方法的优点。</li> <li>二叉排序树的插入删除的时间性能比较好，而对于二叉排序树的查找，它的性能取决于二叉排序树的形状。若比较平衡，查找的时间复杂度也就是O(logn)，近似于折半查找。若不平衡的最坏情况，查找的时间复杂度就是O(n)，等同于顺序查找。<img src="C:\Users\hp\AppData\Roaming\Typora\typora-user-images\image-20220223230651383.png" alt="image-20220223230651383" style="zoom:80%;"></li> <li>因此最好把他构建成一颗平衡二叉树。</li></ul></li> <li><p><strong>平衡二叉树</strong></p> <ul><li>平衡二叉树是一种高度平衡的二叉排序树，其中每一个节点的左子树和右子树的高度差至多等于1。</li> <li><mark>平衡二叉树实现原理</mark></li></ul></li> <li><p><strong>多路查找树</strong>：其每一个节点的孩子数可以多于两个，且每一个节点处可以存储多个元素。由于它是查找树，所有元素之间存在某种特定的排序关系。2-3树，2-3-4树，B树和B+树。
+<mark>为什么需要多路查找树</mark>。</p></li> <li><p><strong>2-3树</strong></p></li> <li><p><strong>2-3-4树</strong></p></li> <li><p><strong>B树</strong></p></li> <li><p><strong>B+树</strong></p></li> <li><p><strong>散列表（哈希表）查找</strong></p></li></ul> <center><mark>+++++++++++++++++++++++++截止线+++++++++++++++++++++++++</mark></center> <h3 id="排序"><a href="#排序" class="header-anchor">#</a> 排序</h3> <h3 id="图的遍历-广度优先-深度优先"><a href="#图的遍历-广度优先-深度优先" class="header-anchor">#</a> 图的遍历(广度优先/深度优先)</h3> <h3 id="贪心"><a href="#贪心" class="header-anchor">#</a> 贪心</h3> <h3 id="回溯"><a href="#回溯" class="header-anchor">#</a> 回溯</h3> <h3 id="动态规划"><a href="#动态规划" class="header-anchor">#</a> 动态规划</h3> <h3 id="字符串kmp搜索"><a href="#字符串kmp搜索" class="header-anchor">#</a> 字符串KMP搜索</h3> <h3 id="其他-最短路径等等"><a href="#其他-最短路径等等" class="header-anchor">#</a> 其他(最短路径等等+++)</h3></div></section> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev"><a href="/blogs/backend/Datastructure&amp;Algorithms/datastructure_notes.html" class="prev">
+            数据结构每日学习杂记
+          </a></span> <span class="next"><a href="/blogs/backend/Datastructure&amp;Algorithms/vedio_learn.html">
+            学习随记
+          </a></span></p></div> <div class="comments-wrapper"><!----></div> <ul class="side-bar sub-sidebar-wrapper" style="width:12rem;" data-v-106c08ae><li class="level-3" data-v-106c08ae><a href="/blogs/backend/Datastructure&amp;Algorithms/algorithms_notes.html#递归-分治" class="sidebar-link reco-side-递归-分治" data-v-106c08ae>递归/分治</a></li><li class="level-3" data-v-106c08ae><a href="/blogs/backend/Datastructure&amp;Algorithms/algorithms_notes.html#查找" class="sidebar-link reco-side-查找" data-v-106c08ae>查找</a></li><li class="level-3" data-v-106c08ae><a href="/blogs/backend/Datastructure&amp;Algorithms/algorithms_notes.html#排序" class="sidebar-link reco-side-排序" data-v-106c08ae>排序</a></li><li class="level-3" data-v-106c08ae><a href="/blogs/backend/Datastructure&amp;Algorithms/algorithms_notes.html#图的遍历-广度优先-深度优先" class="sidebar-link reco-side-图的遍历-广度优先-深度优先" data-v-106c08ae>图的遍历(广度优先/深度优先)</a></li><li class="level-3" data-v-106c08ae><a href="/blogs/backend/Datastructure&amp;Algorithms/algorithms_notes.html#贪心" class="sidebar-link reco-side-贪心" data-v-106c08ae>贪心</a></li><li class="level-3" data-v-106c08ae><a href="/blogs/backend/Datastructure&amp;Algorithms/algorithms_notes.html#回溯" class="sidebar-link reco-side-回溯" data-v-106c08ae>回溯</a></li><li class="level-3" data-v-106c08ae><a href="/blogs/backend/Datastructure&amp;Algorithms/algorithms_notes.html#动态规划" class="sidebar-link reco-side-动态规划" data-v-106c08ae>动态规划</a></li><li class="level-3" data-v-106c08ae><a href="/blogs/backend/Datastructure&amp;Algorithms/algorithms_notes.html#字符串kmp搜索" class="sidebar-link reco-side-字符串kmp搜索" data-v-106c08ae>字符串KMP搜索</a></li><li class="level-3" data-v-106c08ae><a href="/blogs/backend/Datastructure&amp;Algorithms/algorithms_notes.html#其他-最短路径等等" class="sidebar-link reco-side-其他-最短路径等等" data-v-106c08ae>其他(最短路径等等+++)</a></li></ul></main> <!----></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div><div class="kanbanniang" data-v-5775ee02><div class="banniang-container" style="display:;" data-v-5775ee02><div class="messageBox" style="right:68px;bottom:290px;display:none;" data-v-5775ee02>
+      欢迎来到我的博客
+    </div> <div class="operation" style="right:90px;bottom:40px;display:;" data-v-5775ee02><i class="kbnfont kbn-ban-home ban-home" data-v-5775ee02></i> <i class="kbnfont kbn-ban-message message" data-v-5775ee02></i> <i class="kbnfont kbn-ban-close close" data-v-5775ee02></i> <a target="_blank" href="https://vuepress-theme-reco.recoluan.com/views/plugins/kanbanniang.html" data-v-5775ee02><i class="kbnfont kbn-ban-info info" data-v-5775ee02></i></a> <i class="kbnfont kbn-ban-theme skin" style="display:;" data-v-5775ee02></i></div> <canvas id="banniang" width="260px" height="280" class="live2d" style="right:90px;bottom:-20px;opacity:0.9;" data-v-5775ee02></canvas></div> <div class="showBanNiang" style="display:none;" data-v-5775ee02>
+    看板娘
+  </div></div><APlayer audio="" fixed="true" mini="true" autoplay="autoplay" theme="#f9bcdd" loop="loop" order="random" preload="auto" volume="0.1" mutex="true" lrc-type="0" list-folded="true" list-max-height="250" storage-name="vuepress-plugin-meting" id="aplayer-fixed"></APlayer><canvas id="vuepress-canvas-cursor"></canvas><!----></div></div>
+    <script src="/assets/js/app.dc55515c.js" defer></script><script src="/assets/js/4.729c08cb.js" defer></script><script src="/assets/js/1.5e2c7173.js" defer></script><script src="/assets/js/14.2b18c814.js" defer></script>
+  </body>
+</html>

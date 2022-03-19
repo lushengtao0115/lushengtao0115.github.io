@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="430"
+   height="420"
+   viewBox="0 0 113.77083 111.125"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="museum3_430_420.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0582031"
+     inkscape:cx="249.71481"
+     inkscape:cy="338.89075"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1252"
+     inkscape:window-height="952"
+     inkscape:window-x="387"
+     inkscape:window-y="1"
+     inkscape:window-maximized="0"
+     units="px" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     transform="translate(0,-185.87498)">
+    <g
+       style="display:inline;opacity:0.56400003"
+       inkscape:label="svg"
+       id="layer4"
+       transform="translate(-0.63881043,187.39461)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path141"
+         d="M 4.0055305,3.2617881 4.0461967,18.17808 H 34.912898 V 3.3805611 Z"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         name="room1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path143"
+         d="m 3.8727882,20.605798 0.057803,21.098025 H 29.941856 l -0.0578,-14.624111 5.086649,-0.0578 -0.115607,-6.300507 -30.7510946,-0.231211 z"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         name="room7" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path145"
+         d="M 8.9920068,44.502403 H 29.591878 l 0.08175,62.290087 -25.9133303,-0.0817 -0.081745,-37.03072 5.3134585,-0.08174 z"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         name="room6" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path149"
+         d="m 79.211407,2.8939334 31.308533,0.163491 0.16349,38.5021396 -5.3952,-0.08175 v 27.711731 h 5.14996 l 0.0817,37.439445 H 70.546382 v -3.5968 l -24.360166,-0.0817 V 90.1164 H 66.54085 V 80.061701 h 20.763362 l -0.08175,-14.060228 -7.193605,-0.08174 0.08175,-38.992612 h -4.659495 l 0.08175,-6.621387 h 3.842041 z"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         name="room4" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path151"
+         d="m 31.145043,79.407739 h 33.270425 v 9.482478 H 44.387817 l -0.08175,18.310993 H 31.308534 Z"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         name="room5" />
+      <path
+         sodipodi:nodetypes="ccccccccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path157"
+         d="m 66.54085,18.466454 0.367856,-0.940073 0.449601,-0.694837 0.572219,-0.4496 0.531345,-0.326982 0.531346,-0.122619 0.776582,-0.04087 -0.08175,-10.0955718 H 44.919161 l 0.08175,9.9320808 v 0.204363 l 0.913508,0.224694 0.934763,0.48927 v 0 l 0.404619,0.520225 0.289015,0.491324 0.289012,0.520225 0.173411,0.317916 z"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         name="room3" />
+      <path
+         sodipodi:nodetypes="cccccccccccccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path161"
+         d="M 43.611233,2.6895695 V 16.586307 l 1.062691,0.408728 0.735711,0.490473 0.613093,0.572219 0.490471,0.817455 0.28611,0.73571 0.122618,0.490473 h 20.15027 l 0.204364,-0.899201 0.367856,-0.776582 0.531344,-0.613092 0.572219,-0.408727 0.490474,-0.28611 0.858327,-0.408727 L 70.57723,16.588503 70.4985,3.1391698 h 5.93356 L 76.41531,18.5827 l -2.658931,0.0578 -0.0578,8.901632 -36.993798,-0.115604 0.115604,-24.6818009 z"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         name="room2" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path163"
+         d="m 31.10417,28.92988 8.705898,0.04087 -0.08175,7.397969 -8.583279,-0.08174 z"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         name="room8" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path165"
+         d="m 69.442816,29.052498 h 8.74677 v 7.070987 l -8.624152,0.08175 z"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         name="room9" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path167"
+         d="m 40.13705,42.377018 h 6.130912 l -0.08175,25.422857 -5.967423,-0.08174 z"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         name="room10" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path169"
+         d="m 66.786087,42.458764 5.967423,-0.163492 0.08175,25.504603 H 66.6226 L 66.54085,42.295272 Z"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         name="room11" />
+    </g>
+  </g>
+</svg>
